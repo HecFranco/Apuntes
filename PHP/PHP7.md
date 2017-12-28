@@ -16,21 +16,25 @@ INDICE
 	1. [Concepto de Variables](#21concepto-de-variables)
 	2. [Variables Dinámicas](#22variables-dinámicas)
 3. [TIPOS DE DATOS](#3tipos-de-datos)
-	1. [Introducción a los tipos de datos](#31introducción-a-los-tipos-de-datos)
-	2. [Boleanos](#32boleanos)
-	3. [Entero](#33entero)
-	4. [Coma Flotante](#34coma-flotante)
-	5. [Cadena](#35cadena)
-	6. [Matrices](#36matrices)
-4. [HACIENDO CÁLCULOS EN PHP: EXPRESIONES ARITMÉTICAS Y OPERADORES](#4haciendo-cÁlculos-en-php-expresiones-aritmÉticas-y-operadores)
-	1. [Introducción a los operadores](#41introducción-a-los-operadores)
-	2. [Operadores de asignación](#42operadores-de-asignación)
+	1. [Introducción a los tipos de datos](#31introducci%C3%B3n-a-los-tipos-de-datos)
+	2. [gettype()](#32gettype)
+	3. [Boleanos](#33boleanos)
+	4. [Entero](#34entero)
+	5. [Coma Flotante](#35coma-flotante)
+	6. [Cadena](#36cadena)
+	7. [Matrices](#37matrices)
+	8. [Constantes](#38constantes)
+4. [HACIENDO CÁLCULOS EN PHP: EXPRESIONES ARITMÉTICAS Y OPERADORES](#4haciendo-c%C3%81lculos-en-php-expresiones-aritm%C3%89ticas-y-operadores)
+	1. [Introducción a los operadores](#41introducci%C3%B3n-a-los-operadores)
+	2. [Operadores de asignación](#42operadores-de-asignaci%C3%B3n)
 	3. [Operadores para concatenar cadenas](#43operadores-para-concatenar-cadenas)
-	4. [Operadores aritméticos](#44operadores-aritméticos)
+	4. [Operadores aritméticos](#44operadores-aritm%C3%A9ticos)
 	5. [Incremento y decremento](#45incremento-y-decremento)
+	6. [Operadores de Comparación](#46incremento-y-decremento)
+	7. [Operadores Lógicos](#47operadores-l%C3%B3gicos)
 5. [ESTRUCTURAS DE CONTROL](#5estructuras-de-control)
-	1. [Instrucción condicional If](#51instrucción-condicional-if)
-		* [Operadores de igualdad (==) y Asignación (=)](#511operadores-de-igualdad--y-asignación-)
+	1. [Instrucción condicional If](#51instrucci%C3%B3n-condicional-if)
+		* [Operadores de igualdad (==) y Asignación (=)](#511operadores-de-igualdad--y-asignaci%C3%B3n-)
 	2. [Else y Elseif](#52else-y-elseif)
 	3. [Switch](#53switch)
 	4. [Operador Ternario](#54operador-ternario)
@@ -1134,7 +1138,7 @@ La diferencia entre el prefijo y posponer el incremento o decremento es crucial 
 |-------------------------------------------------------------------|-----------------------|
 
 
-4.5.Operadores de Comparación
+4.6.Operadores de Comparación
 -----------------------------
 Los operadores de comparación, como su nombre lo indica, permiten comparar dos valores. Puede también estar interesado en ver las tablas de comparación de tipos, ya que muestran ejemplos de las varias comparaciones relacionadas con tipos.
 
@@ -1155,7 +1159,7 @@ Los operadores de comparación, como su nombre lo indica, permiten comparar dos 
 | [Volver al inicio del capítulo](#41introducción-a-los-operadores) | [Ver índice](#indice) |
 |-------------------------------------------------------------------|-----------------------|
 
-4.6.Operadores Lógicos
+4.7.Operadores Lógicos
 ----------------------
 | **Ejemplo**	|**Nombre**        | **Resultado**                             |
 |---------------|------------------|-------------------------------------------|
