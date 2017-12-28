@@ -15,81 +15,81 @@ INDICE
 2. [VARIABLES](#2variables)
 	1. [Concepto de Variables](#21concepto-de-variables)
 	2. [Variables Dinámicas](#22variables-dinámicas)
-3. [Tipos de Datos](#3tipos-de-datos)
+3. [TIPOS DE DATOS](#3tipos-de-datos)
 	1. [Introducción a los tipos de datos](#31introducción-a-los-tipos-de-datos)
 	2. [Boleanos](#boleanos)
 	3. [Entero](#entero)
 	4. [Coma Flotante](#coma-flotante)
 	5. [Cadena](#cadena)
 	6. [Matrices](#matrices)
-4. [HACIENDO CÁLCULOS EN PHP: EXPRESIONES ARITMÉTICAS Y OPERADORES](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#4haciendo-cÁlculos-en-php-expresiones-aritmÉticas-y-operadores)
-	1. [Introducción a los operadores](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#41introducción-a-los-operadores)
-	2. [Operadores de asignación](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#42operadores-de-asignación)
-	3. [Operadores para concatenar cadenas](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#43operadores-para-concatenar-cadenas)
-	4. [Operadores aritméticos](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#44operadores-aritméticos)
-	5. [Incremento y decremento](https://github.com/HecFranco/Apuntes/blob/master/PHP/04.ExpresionesAritmeticas%26Operadores.md#45incremento-y-decremento)
-5. [ESTRUCTURAS DE CONTROL](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#5estructuras-de-control)
-	1. [Instrucción condicional If](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#51instrucción-condicional-if)
-		* [Operadores de igualdad (==) y Asignación (=)](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#511operadores-de-igualdad--y-asignación-)
-	2. [Else y Elseif](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#52else-y-elseif)
-	3. [Switch](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#53switch)
-	4. [Operador Ternario](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#54operador-ternario)
-	5. [For](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#55for)
-	6. [While y Do While](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#56while-y-do-while)
-		* [El Bucle While](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#el-bucle-while)
-		* [Do...While](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#do--while)
-	7. [Break y Continue](https://github.com/HecFranco/Apuntes/blob/master/PHP/05.EstructurasDeControl.md#57break-y-continue-salir-de-un-bucle)
-6. [ARRAYS](https://github.com/HecFranco/Apuntes/blob/master/PHP/06.Arrays.md#6arrays)
-	1. [Array Escalar](https://github.com/HecFranco/Apuntes/blob/master/PHP/06.Arrays.md#61array-escalar)
-	2. [Array Asociativo](https://github.com/HecFranco/Apuntes/blob/master/PHP/06.Arrays.md#62array-asociativo)
-	3. [Array Bidimensional y Multidimensonal](https://github.com/HecFranco/Apuntes/blob/master/PHP/06.Arrays.md#63array-bidimensional-y-multidimensional)
-	4. [Buble Foreach](https://github.com/HecFranco/Apuntes/blob/master/PHP/06.Arrays.md#64bucle-foreach)
-7. [FUNCIONES](https://github.com/HecFranco/Apuntes/blob/master/PHP/07.Funciones.md#7funciones)
-	1. [Funciones que trabajan con Variables](https://github.com/HecFranco/Apuntes/blob/master/PHP/07.Funciones.md#71funciones-que-trabajan-con-variables)
-	2. [Funciones que trabajan con Cadenas](https://github.com/HecFranco/Apuntes/blob/master/PHP/07.Funciones.md#72funciones-que-trabajan-con-cadenas)
-	3. [Funciones que trabajan con Arrays](https://github.com/HecFranco/Apuntes/blob/master/PHP/07.Funciones.md#73funciones-que-trabajan-con-arrays)
-	4. [Funciones que trabajan con Fechas](https://github.com/HecFranco/Apuntes/blob/master/PHP/07.Funciones.md#74funciones-que-trabajan-con-fechas)
-8. [FUNCIONES PROPIAS](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#8funciones-definidas-por-el-usuario)<br>
-	1. [Crear funciones propias](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#81como-crear-funciones-propias)<br>
-	2. [Funciones definidas en un archivo externo](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#82funciones-definidas-en-un-archivo-externo)<br>
-	3. [Parámetros](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#83parámetros)<br>
-		* [Parámetros por Valor](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#831parámetros-por-valor)	
-		* [Parámetros por Referencia](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#832parámetros-por-referencia)
-		* [Parámetros porDefecto](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#833parámetros-por-defecto)
-		* [Número Variable de Parámetros](https://github.com/HecFranco/Apuntes/blob/master/PHP/08.FuncionesPropias.md#834número-variable-de-parámetros)
-9. [PROGRAMACIÓN ORIENTADA A OBJETOS](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#9programaciÓn-orientada-a-objetos)
-	1. [Clases](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#91clases)
-	2. [Instancias](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#92instancias)
-	3. [Valores por Defecto](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#93valores-por-defecto)
-	4. [Herencia de Clases](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#94herencia-de-clases)
-	5. [Clase Abstracta](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#95clase-abstracta)
-	6. [Clase Final](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#96clase-final)
-	7. [Modificadores de acceso y visibilidad](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#97modificadores-de-acceso-y-visibilidad)
-	8. [Acceso a los Objetos](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#98acceso-a-los-objetos)
-	9. [Métodos Mágicos](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#99métodos-mágicos)
-		* [Constructores](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#991constructores)
-		* [Destructor](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#992destructor)
-	10. [Interfaces](https://github.com/HecFranco/Apuntes/blob/master/PHP/09.Programaci%C3%B3n%20Orientada%20a%20Objetos.md#910interfaces)
-10. [MÉTODO GET Y POST](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#10mÉtodo-get-y-post)
-	1. [Método GET](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#101método-get)
-	2. [Método POST](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#102método-post)
-	3. [Gestionar Archivos](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#103gestionar-archivos)
-		* [Subir Ficheros](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#1031subir-ficheros)
-		* [Acceso a archivos](https://github.com/HecFranco/Apuntes/blob/master/PHP/10.Get%26Post.md#1032acceso-a-archivos)
-11. [COOKIES & SESIONES](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#11cookies--sesiones)
-	1. [Cookies](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#111cookies)
-		* [11.1.1.Creacion y lectura de cookies](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#1111creacion-y-lectura-de-cookies)
-		* [Escritura y Borrado de Cookies](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#1112escritura-y-borrado-de-cookies)
-		* [Ejemplos Prácticos](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#1113ejemplos-prácticos)
-	2. [Cookies](https://github.com/HecFranco/Apuntes/blob/master/PHP/11.Cookies&Sesiones.md#112sesiones)
-12. [BASE DE DATOS - MySQLi](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#12base-de-datos---mysqli)
-	1. [Sobre MySQLi](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#121sobre-mysqli)
-	2. [Conexión con la Base de Datos](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#122conexión-con-la-base-de-datos)
-	3. [Insertar Registros en una Base de Datos desde la Web](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#123insertar-registros-en-una-base-de-datos-desde-la-web)
-	4. [Consultas a la Base de Datos](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#124consultas-a-la-base-de-datos)
-	5. [Actualizar Tablas](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#125actualizar-tablas)
-	6. [Eliminar Registros de las Tablas](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#126eliminar-registros-de-las-tablas)
-	7. [Trabajando con varias Tablas](https://github.com/HecFranco/Apuntes/blob/master/PHP/12.BD-MySQLi.md#127trabajando-con-varias-tablas)
+4. [HACIENDO CÁLCULOS EN PHP: EXPRESIONES ARITMÉTICAS Y OPERADORES](#4haciendo-cÁlculos-en-php-expresiones-aritmÉticas-y-operadores)
+	1. [Introducción a los operadores](#41introducción-a-los-operadores)
+	2. [Operadores de asignación](#42operadores-de-asignación)
+	3. [Operadores para concatenar cadenas](#43operadores-para-concatenar-cadenas)
+	4. [Operadores aritméticos](#44operadores-aritméticos)
+	5. [Incremento y decremento](#45incremento-y-decremento)
+5. [ESTRUCTURAS DE CONTROL](#5estructuras-de-control)
+	1. [Instrucción condicional If](#51instrucción-condicional-if)
+		* [Operadores de igualdad (==) y Asignación (=)](#511operadores-de-igualdad--y-asignación-)
+	2. [Else y Elseif](#52else-y-elseif)
+	3. [Switch](#53switch)
+	4. [Operador Ternario](#54operador-ternario)
+	5. [For](#55for)
+	6. [While y Do While](#56while-y-do-while)
+		* [El Bucle While](#el-bucle-while)
+		* [Do...While](#do--while)
+	7. [Break y Continue](#57break-y-continue-salir-de-un-bucle)
+6. [ARRAYS](#6arrays)
+	1. [Array Escalar](#61array-escalar)
+	2. [Array Asociativo](#62array-asociativo)
+	3. [Array Bidimensional y Multidimensonal](#63array-bidimensional-y-multidimensional)
+	4. [Buble Foreach](#64bucle-foreach)
+7. [FUNCIONES](#7funciones)
+	1. [Funciones que trabajan con Variables](#71funciones-que-trabajan-con-variables)
+	2. [Funciones que trabajan con Cadenas](#72funciones-que-trabajan-con-cadenas)
+	3. [Funciones que trabajan con Arrays](#73funciones-que-trabajan-con-arrays)
+	4. [Funciones que trabajan con Fechas](#74funciones-que-trabajan-con-fechas)
+8. [FUNCIONES PROPIAS](#8funciones-definidas-por-el-usuario)<br>
+	1. [Crear funciones propias](#81como-crear-funciones-propias)<br>
+	2. [Funciones definidas en un archivo externo](#82funciones-definidas-en-un-archivo-externo)<br>
+	3. [Parámetros](#83parámetros)<br>
+		* [Parámetros por Valor](#831parámetros-por-valor)
+		* [Parámetros por Referencia](#832parámetros-por-referencia)
+		* [Parámetros porDefecto](#833parámetros-por-defecto)
+		* [Número Variable de Parámetros](#834número-variable-de-parámetros)
+9. [PROGRAMACIÓN ORIENTADA A OBJETOS](#9programaciÓn-orientada-a-objetos)
+	1. [Clases](#91clases)
+	2. [Instancias](#92instancias)
+	3. [Valores por Defecto](#93valores-por-defecto)
+	4. [Herencia de Clases](#94herencia-de-clases)
+	5. [Clase Abstracta](#95clase-abstracta)
+	6. [Clase Final](#96clase-final)
+	7. [Modificadores de acceso y visibilidad](#97modificadores-de-acceso-y-visibilidad)
+	8. [Acceso a los Objetos](#98acceso-a-los-objetos)
+	9. [Métodos Mágicos](#99métodos-mágicos)
+		* [Constructores](#991constructores)
+		* [Destructor](#992destructor)
+	10. [Interfaces](#910interfaces)
+10. [MÉTODO GET Y POST](#10mÉtodo-get-y-post)
+	1. [Método GET](#101método-get)
+	2. [Método POST](#102método-post)
+	3. [Gestionar Archivos](#103gestionar-archivos)
+		* [Subir Ficheros](#1031subir-ficheros)
+		* [Acceso a archivos](#1032acceso-a-archivos)
+11. [COOKIES & SESIONES](#11cookies--sesiones)
+	1. [Cookies](#111cookies)
+		* [11.1.1.Creacion y lectura de cookies](#1111creacion-y-lectura-de-cookies)
+		* [Escritura y Borrado de Cookies](#1112escritura-y-borrado-de-cookies)
+		* [Ejemplos Prácticos](#1113ejemplos-prácticos)
+	2. [Cookies](#112sesiones)
+12. [BASE DE DATOS - MySQLi](#12base-de-datos---mysqli)
+	1. [Sobre MySQLi](#121sobre-mysqli)
+	2. [Conexión con la Base de Datos](#122conexión-con-la-base-de-datos)
+	3. [Insertar Registros en una Base de Datos desde la Web](#123insertar-registros-en-una-base-de-datos-desde-la-web)
+	4. [Consultas a la Base de Datos](#124consultas-a-la-base-de-datos)
+	5. [Actualizar Tablas](#125actualizar-tablas)
+	6. [Eliminar Registros de las Tablas](#126eliminar-registros-de-las-tablas)
+	7. [Trabajando con varias Tablas](#127trabajando-con-varias-tablas)
 
 ----------------------------------
 
@@ -107,7 +107,7 @@ El código PHP que incluimos en nuestra página debe estar **entre etiqueta de a
 ```
 Todo lo que está contenido entre estas etiquetas **debe coincidir con las reglas de sintaxis de PHP**, y es el código que será ejecutado por el intérprete y no se envía directamente al navegador. Para generar una salida de información al navegador se puede utilizar la función `echo`.
 Veamos un ejemplo sencillo, que consiste en código HTML y PHP (recuerda que código PHP está entre `<?php` y `?>` ):
-```php 
+```php
 <html>
 	<head>
 		<title>
@@ -191,16 +191,16 @@ Este es el código que resuelve el ejercicio:
 
 | [Volver al inicio del capítulo](#11php-y-html) | [Ver índice](#indice) |
 |------------------------------------------------|-----------------------|
- 
+
 1.1.1.Diferencias entre echo, print, print_r y var_dump
 -------------------------------------------------------
-**echo** 
+**echo**
 * Muestra una o más cadenas separadas por comas
 * No tiene un valor de retorno
 ```php
 echo "Cadena 1", "Cadena 2";
 ```
-**print** 
+**print**
 * Muestra solo una simple cadena
 * Devuelve 1, por lo cual puede ser usada en una expresión
 ```php
@@ -212,7 +212,7 @@ if($expresion && print "Cadena"){
 **print_r()**
 * Muestra una representación más entedible de un solo valor cualquiera
 * No solo acepta cadenas, también acepta arreglos y objetos formateandolos para ser visualizados de una forma más entendible
-* Puede devolver su valor de salida como un valor de retorno si le pasa true como su segundo argumento 
+* Puede devolver su valor de salida como un valor de retorno si le pasa true como su segundo argumento
 * Útil para la depuración
 
 Ejemplo: Si tenemos el siguiente arreglo:
@@ -272,7 +272,7 @@ array(3) {
 
 | [Volver al inicio del capítulo](#11php-y-html) | [Ver índice](#indice) |
 |------------------------------------------------|-----------------------|
- 
+
 1.2.Los Caractéres de Escape
 -----------------------------
 Los datos se envía al navegador que sigue al comando echo se pueden encerrar entre paréntesis. y la cadena puede usar comillas simples (`''` ) o dobles (`""` ). Hay que tener en cuenta también que el comando `<br />` de HTML no generará un salto de línea en el código PHP (aunque si en el navegador, de la forma clásica). Aquí podemos utilizar el carácter de escape `/n`. Veamos un ejemplo práctico:
@@ -320,7 +320,7 @@ También es posible hacerloo con la etiqueta `<script language = "php"> ... </sc
 
 | [Volver al inicio del capítulo](#11php-y-html) | [Ver índice](#indice) |
 |------------------------------------------------|-----------------------|
- 
+
 1.3.Comentarios en PHP
 ----------------------
 
@@ -371,7 +371,7 @@ Si deseamos recurrir a los comentarios de varias líneas, la notcación sería l
 
 | [Volver al inicio del capítulo](#11php-y-html) | [Ver índice](#indice) |
 |------------------------------------------------|-----------------------|
- 
+
 1.4.Mostrar los errores de PHP en tiempo de ejecución
 -----------------------------------------------------
 
@@ -406,13 +406,13 @@ ini_set('error_reporting', E_ALL);
 <?php
 // Motrar todos los errores de PHP
 error_reporting(-1);
- 
+
 // No mostrar los errores de PHP
 error_reporting(0);
- 
+
 // Motrar todos los errores de PHP
 error_reporting(E_ALL);
- 
+
 // Motrar todos los errores de PHP
 ini_set('error_reporting', E_ALL);
 ?>
@@ -520,7 +520,7 @@ produce el mismo resultado que:
 3.1.Introducción a los tipos de datos
 -------------------------------------
 
-Una variable puede contener diferentes tipos de valores, cada uno de los cuales tiene un comportamiento diferente y utilidad. Vamos a verlo en el siguiente tema. 
+Una variable puede contener diferentes tipos de valores, cada uno de los cuales tiene un comportamiento diferente y utilidad. Vamos a verlo en el siguiente tema.
 
 ----------------------------------
 
@@ -539,7 +539,7 @@ var_dump(suma('2',6);
 
 3.2.Gettype()
 -------------
-Devuelve el tipo de la variable PHP var. 
+Devuelve el tipo de la variable PHP var.
 ```php
 <?php
 $data = array(1, 1., NULL, new stdClass, 'foo');
@@ -550,7 +550,7 @@ foreach ($data as $value) {
 Los posibles valores para la cadena devuelta son: "boolean", "integer", "double" (por razones históricas "double" es devuelto en caso de que un valor sea de tipo float, y no simplemente "float"), "string", "array", "object", "resource", "NULL" y "unknown type"
 
 Para la comprobación de tipos, utilice las funciones `is_*`.
-```php 
+```php
 $boolean=true;
 is_boolean($boolean);
 // imprimirá "true"
@@ -600,7 +600,7 @@ Otro tipo de datos es el número entero, positivo o negativo, cuyo valor del má
 ?>
 ```
 
-**Ejemplo** 
+**Ejemplo**
 ```php
 <html lang="es">
 	<head>
@@ -622,7 +622,7 @@ Otro tipo de datos es el número entero, positivo o negativo, cuyo valor del má
 </html>
 ```
 
-**Ejercicio 3.1.** Define una variable de los siguientes tipos: integer, double, string y boolean. 
+**Ejercicio 3.1.** Define una variable de los siguientes tipos: integer, double, string y boolean.
 A continuación, imprímelas en la página, una por línea
 ```php
 <!DOCTYPE html>
@@ -695,7 +695,7 @@ Este tipo de datos es un número decimal (a veces nos referiremos a él como *"d
 
 3.6.Cadena
 -----------
-Una cadena es **cualquier conjunto de caracteres**, sin limitación normalmente, contenida dentro de un par de comillas dobles o simples. Las cadenas delimitadas por comillas simples son la forma más simple. Este es un ejemplo: 
+Una cadena es **cualquier conjunto de caracteres**, sin limitación normalmente, contenida dentro de un par de comillas dobles o simples. Las cadenas delimitadas por comillas simples son la forma más simple. Este es un ejemplo:
 ```php
 <?php
 	$frase = 'Ana dijo: "Hola, pero nadie respondió"';
@@ -832,7 +832,7 @@ Los operadores son otro de los elementos básicos de cualquier lenguaje de progr
 
 4.2.Operadores de asignación
 ----------------------------
-Un ejemplo de operador de asignación lo tendríamos en la expresión `$nombre = "Juan";` 
+Un ejemplo de operador de asignación lo tendríamos en la expresión `$nombre = "Juan";`
 El símbolo `=` se utiliza para asignar a la variable `$nombre` el valor `'Juan'`. En general, podemos decir que con el operador de asignación tomamos lo que está a la derecha del signo del signo de igual y le asignarmos el valor que lo sigue. No solo trabajamos con valores. También es posible asignar a una variable otra variable:
 ```php
 $a = 5;
@@ -978,7 +978,7 @@ De esta manera, le decimos a PHP que queremos asignar a la variable especificada
 
 			echo "<br/>Módulo: ";
 			echo $a % $b;
-			
+
 		?>
 	</body>
 </html>
@@ -1226,7 +1226,7 @@ if ($a != 4) echo '$a es igual a 4!';
 A primera vista, podemos ser engañados por estas instrucciones, especialmente tienes experiencia con lenguajes de programación en los que una expresión como `$a = 4` puede ser tanto una asignación como una comparación. Si pensamos que este bloque de código no se cumplirá, seremos sorprendidos al ver en el navegador la frase '$a es igual a `4'`.
 La expresión que hemos puesto entre paréntesis es una asignación: es decir, se asigna un valor a la variable `$a`. La siguiente declaración se ejecuta a continuación considera que el valor de nuestra expresión es `4`, que PHP equivalente a una verdad booleana. Si en lugar de `if ($a = 4)` hubiesemos escrito `if ($a = 0)`, la siguiente declaración se habría perdido, porque nuestra condición tendría un valor de `0`, lo que sería falso.
 Para obtener el resultado correcto debemos utilizar el operador de comparación que es un doble signo de igual (==):
-```php 
+```php
 $a = 7;
 if ($a == 4) echo '$a es igual a 4!';
 ```
@@ -1244,7 +1244,7 @@ Recordemos siempre utilizar correctamente el operador condicional de igualdad, e
 		<?php
 
 			$nota = 10;
-			if ($nota == 10) echo"Eres muy bueno!!"; 
+			if ($nota == 10) echo"Eres muy bueno!!";
 
 			echo "<br/>Tienes una nota de $nota";
 		?>
@@ -1473,7 +1473,7 @@ if($user == $nombre && $password == $pass){
 |Else |
 |-----|
 Vamos con un análisis un poco más profundo de la instrucción if: nos permite no sólo indicar la instrucción que queremos ejecutar si la condición es verdadera, sino también un bloque de código que se ejecuta cuando la condición es falsa. He aquí cómo:
-```php 
+```php
 If (<condición>) {
  <código>
 } else {
@@ -1483,7 +1483,7 @@ If (<condición>) {
 La palabra clave else, que significa **'en otro caso'**, debe colocarse **inmediatamente después de la llave de cierre** del código proporcionado por el caso `'true'`. Para else se aplican las mismas reglas que vimos en el caso del `if`: no hay punto y coma, las llaves son obligatorias si tenemos más de una instrucción. Obviamente, el bloque de código especificado para else es ignorado cuando la condición es verdadera, y se ejecuta sólo si la condición es falsa.
 Las instrucciones `if` pueden ser anidadas una dentro de otras, lo que nos permite crear código de una cierta complejidad. Ejemplo:
 ```php
-if ($nombre == 'Juan') { 
+if ($nombre == 'Juan') {
  	if ($apellido == 'Lopez') {
  		print "Juan Lopez, bienvenido a nuestra página";
  	} else {
@@ -1528,11 +1528,11 @@ En este caso, tenemos un ejemplo de anidado dentro del primer caso, en el que $n
 			$apellido = 'Alonso';
 
 			if ($nombre == 'Pedro') {
-			
+
 				if ($apellido == 'Alonso') { echo "Hola, cómo estás querido amigo!!"; } else { echo "Hola Pedro, cómo te va?"; }
 
 			} else { echo "Hola $nombre"; }
-		
+
 
 		?>
 	</body>
@@ -1588,7 +1588,7 @@ En este caso, tenemos un ejemplo de anidado dentro del primer caso, en el que $n
 </html>
 ```
 
-**Ejercicio 5.8.** Para realizar este ejercicio, en primer lugar deberemos conocer una nueva función matemática que no hemos tratado en el tema. 
+**Ejercicio 5.8.** Para realizar este ejercicio, en primer lugar deberemos conocer una nueva función matemática que no hemos tratado en el tema.
 La función rand() genera un número aleatorio. Admite dos parámetros, que serán el número inicial y final entre los que queremos ese número al azar.
 Usando esta función, vamos a crear un número entre 1 y 100, es decir, rand(1,100);
 Crearemos una estructura condicional que nos diga cuantos dígitos tiene ese número, uno, dos o tres.
@@ -1665,7 +1665,7 @@ if ($nombre == 'Juan') {
 	print "Hola $nombre!";
 }
 ```
-En este caso, tenemos una instrucción a ejecutar cuando $nombre es `'Juan'`; en el caso de que no sea cierto, hay una segunda instrucción si `$apellido` es `'Lopez'`; incluso si esta se cumple, se pondrá en funcionamiento la tercera condición. Ten en cuenta que si $nombre es `'Juan'` y `$apellido` es `'Lopez'`, está siendo ejecutada solo la primera declaración, ya que después de comprobar el estado, todos los demás casos se omiten. 
+En este caso, tenemos una instrucción a ejecutar cuando $nombre es `'Juan'`; en el caso de que no sea cierto, hay una segunda instrucción si `$apellido` es `'Lopez'`; incluso si esta se cumple, se pondrá en funcionamiento la tercera condición. Ten en cuenta que si $nombre es `'Juan'` y `$apellido` es `'Lopez'`, está siendo ejecutada solo la primera declaración, ya que después de comprobar el estado, todos los demás casos se omiten.
 Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejercicio podrás ver mucho más donde practicar esta y otras lecciones.
 
 **Ejemplo - Elseif**
@@ -1683,7 +1683,7 @@ Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejerci
 
 			if ($a > $b) { echo "A es mayor que B";
 			} elseif ($a == $b) { echo "A es igual a B";
-			} else { echo "B es mayor que A"; 
+			} else { echo "B es mayor que A";
 		}
 
 		?>
@@ -1713,7 +1713,7 @@ Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejerci
 	</body>
 </html>
 ```
-**Ejercicio 5.10.** 
+**Ejercicio 5.10.**
 ```php
 <html lang="es">
 	<head>
@@ -1737,7 +1737,7 @@ Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejerci
 			}
 
 
-	
+
 		?>
 	</body>
 </html>
@@ -1763,7 +1763,7 @@ Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejerci
 		} elseif ($sexo == 'M' and $idioma == 'francés') {echo"eres mujer y hablas francés";
 		} else {echo "eres mujer y hablas inglés";
 		}
-	
+
 		?>
 	</body>
 </html>
@@ -1781,7 +1781,7 @@ Si quieres ver más casos prácticos, recuerda que en nuestra sección de ejerci
 
 			$nota = 3;
 
-			if ($nota == 10) { echo "Matrícula de Honor"; 
+			if ($nota == 10) { echo "Matrícula de Honor";
 		} elseif ($nota >= 7) { echo "Notable";
 		} elseif ($nota >= 6) { echo "Bien";
 		} elseif ($nota >= 5) { echo "Aprobado";
@@ -1834,7 +1834,7 @@ switch (<condición>) {
 ```
 La instrucción switch requiere que le indiquemos, entre paréntesis, una **expresión que se evaluará por su valor** (esta vez no es necesariamente un valor booleano, como pasaba en if). A continuación detallaremos una serie de expresiones que serán comparadas con la
 dada anteriormente: en el momento en que encuentra un valor igual, PHP ejecutar el código que le sigue, hasta que encuentra la instrucción `break`. Como podemos ver en el ejemplo, las expresiones que deben compararse con la primera está precedida por la palabra clave case y seguido de dos puntos. La instrucción default está indicada como "último caso", que se considera verificada cuando ninguno de los casos anteriores se cumple. Esta indicación al valor por defecto, default, puede estar ausente si lo consideramos correcto.
-Es muy importante entender el funcionamiento de la instrucción break en este entorno: al comprobar PHP la validez uno de los casos, se lleva a cabo no sólo el código que se encuentra inmediatamente después, sino también **todo lo que está por debajo**, incluyendo el correspondiente a los casos siguientes si nada le para. Es decir, hasta que la encuentra una instrucción break. Si no colocamos la instrucción **break** al final de un bloque de código la ejecución continuaría al siguiente caso, cosa que nos puede interesar o no, según nuestras intenciones. Veamos un ejemplo práctico 
+Es muy importante entender el funcionamiento de la instrucción break en este entorno: al comprobar PHP la validez uno de los casos, se lleva a cabo no sólo el código que se encuentra inmediatamente después, sino también **todo lo que está por debajo**, incluyendo el correspondiente a los casos siguientes si nada le para. Es decir, hasta que la encuentra una instrucción break. Si no colocamos la instrucción **break** al final de un bloque de código la ejecución continuaría al siguiente caso, cosa que nos puede interesar o no, según nuestras intenciones. Veamos un ejemplo práctico
 
 ```php
 switch ($nombre) {
@@ -1874,7 +1874,7 @@ En este caso, nos esperaba un solo mensaje para el caso en que la variable `$nom
 		$quiniela = '3';
 
 		switch ($quiniela) {
-			
+
 			case '1':
 				echo "Ha ganado el equipo de casa, enhorabuena!!";
 				break;
@@ -2009,7 +2009,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 			$variable = 54;
 
 			switch ($variable) {
-				
+
 				case 1:
 					echo '$variable es igual a 1';
 					break;
@@ -2045,7 +2045,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 			$edad = 25;
 
 			switch ($edad) {
-				
+
 				case ($edad < 18):
 					echo "Eres menor de edad, fuera!";
 
@@ -2082,7 +2082,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 			$year = 2014;
 			echo "Tu año de nacimiento es $year y te corresponde en el horóscopo chino el ";
 
-			switch ($year%12) {			
+			switch ($year%12) {
 				case 0:
 					echo "Mono";
 					Break;
@@ -2091,7 +2091,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 					Break;
 				case 2:
 					echo "Perro";
-					Break;									
+					Break;
 				case 3:
 					echo "Jabalí";
 					Break;
@@ -2118,7 +2118,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 					Break;
 				case 11:
 					echo "Caballo";
-					Break;					
+					Break;
 
 			}
 
@@ -2164,7 +2164,7 @@ En función del color que se haya guardado en la variable, el programa mostrará
 
 				default:
 					echo "Hola, cómo estás!!";
-					break;				
+					break;
 			}
 
 		?>
@@ -2258,7 +2258,7 @@ Las tres instrucciones que se incluyen entre paréntesis y separadas por puntos 
 ++$mul;
 ```
 3. la segunda debe ser una condición, en nuestro caso $mul <= 10, y es evaluada antes de cada repetición del bucle, y cuando es falsa la ejecución del ciclo se interrumpe, y el control pasa a las instrucciones que puedan seguir a las llaves.
-Cuando es verdadera, se ejecutan las instrucciones incluidas entre las llaves. Por supuesto, es posible que esta condición sea falsa desde la primera vuelta: en este caso, las instrucciones entre las llaves no se ejecutarán ni siquiera una vez. 
+Cuando es verdadera, se ejecutan las instrucciones incluidas entre las llaves. Por supuesto, es posible que esta condición sea falsa desde la primera vuelta: en este caso, las instrucciones entre las llaves no se ejecutarán ni siquiera una vez.
 Es muy importante tener cuidado de no crear una situación en la que el ciclo nunca llega a un final (el llamado "bucle sin fin"): en este caso, de hecho, la secuencia de comandos se ejecutaría indefinidamente.
 En muchos casos de programación clásica, un error de este tipo podría obligarnos a forzar el cierre del programa, o incluso para apagar el ordenador: en el caso de PHP esto generalmente no sucede, debido a que los scripts PHP tienen un límite de tiempo para la su ejecución, más allá del cual se detienen. Este límite es normalmente 30 segundos.
 
@@ -2313,7 +2313,7 @@ En muchos casos de programación clásica, un error de este tipo podría obligar
 
 ----------------------------------
 
-**Ejemplo** 
+**Ejemplo**
 ```php
 <html lang="es">
 	<head>
@@ -2634,7 +2634,7 @@ Con esta sintaxis, **el bucle while se mueve después de que el código que se e
 
 ----------------------------------
 
-**Ejemplo** 
+**Ejemplo**
 ```php
 <html lang="es">
 	<head>
@@ -2940,7 +2940,7 @@ Anteriormente mencionamos el tipo de datos array con el siguiente ejemplo:
 ```PHP
 $color = array ('blanco', 'negro', 'amarillo', 'verde', 'rojo');
 ```
-Usando este tipo de definición, **asociamos a cada uno de los valores que hemos enumerado un índice numérico**, partiendo de 0 Así que, en este caso, 'blanco' asumen el índice 0, 'negro' el índice 1, y así sucesivamente hasta 'rojo', que es el índice de 4. Para hacer referencia a un solo elemento de la matriz indicaremos el nombre de la matriz seguido por el índice entre corchetes: 
+Usando este tipo de definición, **asociamos a cada uno de los valores que hemos enumerado un índice numérico**, partiendo de 0 Así que, en este caso, 'blanco' asumen el índice 0, 'negro' el índice 1, y así sucesivamente hasta 'rojo', que es el índice de 4. Para hacer referencia a un solo elemento de la matriz indicaremos el nombre de la matriz seguido por el índice entre corchetes:
 ```PHP
 echo $color[2]; // imprime 'amarillo"'
 ```
@@ -2948,13 +2948,13 @@ También hay un método para **agregar un valor a la matriz existente**; este m�
 ```PHP
 $color[] = 'azul';
 ```
-Este código crea un nuevo elemento en la matriz `$color`, que contará con el índice 5. Este comando puede ser "traducido" como "añadir un elemento en la parte inferior de la matriz $color". Como hemos dicho, esta sintaxis también es válida para definir una matriz nueva, como una alternativa a la utilizada antes: de hecho, si suponemos que el array $color aún no está definido, esta declaración le habría llevado al crear el elemento con el índice 0. 
+Este código crea un nuevo elemento en la matriz `$color`, que contará con el índice 5. Este comando puede ser "traducido" como "añadir un elemento en la parte inferior de la matriz $color". Como hemos dicho, esta sintaxis también es válida para definir una matriz nueva, como una alternativa a la utilizada antes: de hecho, si suponemos que el array $color aún no está definido, esta declaración le habría llevado al crear el elemento con el índice 0.
 También **se puede especificar directamente el índice**, aunque sea de forma no consecutiva:
 ```PHP
 $ color[3] = 'naranja';
 $ color[7] = 'púrpura';
 ```
-Después de esta instrucción, el elemento con el índice 3, que antes era 'verde', tendrá el valor "naranja". También tendremos un nuevo elemento, con índice 7, con el valor de 'púrpura'. Cabe señalar que, siguiendo estas instrucciones, nuestra matriz tiene un "agujero" porque el código 5 salta directamente al código 7. Si definimos un nuevo elemento con corchetes vacíos tendrá el índice 8. En la práctica, como ves, cuando se propone una instrucción de este tipo, PHP va en busca del elemento con el índice más alto, y aumenta en 1 para crear uno nuevo 
+Después de esta instrucción, el elemento con el índice 3, que antes era 'verde', tendrá el valor "naranja". También tendremos un nuevo elemento, con índice 7, con el valor de 'púrpura'. Cabe señalar que, siguiendo estas instrucciones, nuestra matriz tiene un "agujero" porque el código 5 salta directamente al código 7. Si definimos un nuevo elemento con corchetes vacíos tendrá el índice 8. En la práctica, como ves, cuando se propone una instrucción de este tipo, PHP va en busca del elemento con el índice más alto, y aumenta en 1 para crear uno nuevo
 
 **[Regresar al índice](#indice)**
 
@@ -3226,9 +3226,9 @@ $seleccion = array(1
 ué"', 'Fábregas"', 'Silva"', 'Mata"', 'Alba"', 'El
 Haddani"', 'res"' => 'Valdes"');
 ```
-En primer lugar, hemos creado el primer elemento, asignando explícitamente el índice 1. 
+En primer lugar, hemos creado el primer elemento, asignando explícitamente el índice 1.
 Como podemos ver, la manera de hacer esto es especificar el índice, seguido del símbolo => y el valor del elemento. Si no hubiésemos indicado el índice como 1, PHP le asignaría al primer elemento el índice 0. Para los siguientes elementos, nos limitamos a enumerar los valores y PHP crea un incremento de 1 a partir del existente más alto. Así 'Torres' toma el índice 2 'Iniesta' el 3 y así, sucesivamente. Al llegar al último elemento, ya que queremos asignar una clave asociativa, estamos obligados a indicarla explícitamente.
-Cabe señalar que cuando se utilizaron las llaves asociativas hemos de hacer uso de las comillas: es necesario para mantener la "limpieza" del código, ya que si no usáramos comillas (como se ve a menudo a hacer), PHP generaría de error, aunque el programa funcionase igualmente (ya que el valor se convertiría automáticamente en una cadena). 
+Cabe señalar que cuando se utilizaron las llaves asociativas hemos de hacer uso de las comillas: es necesario para mantener la "limpieza" del código, ya que si no usáramos comillas (como se ve a menudo a hacer), PHP generaría de error, aunque el programa funcionase igualmente (ya que el valor se convertiría automáticamente en una cadena).
 Vamos a ver algunos ejemplos de la creación e impresión de valores en una matriz:
 ```php
 $persona['nombre'] = 'Juan"'; // correcto
@@ -3287,11 +3287,11 @@ Ahora que hemos visto la manera de crear y asignar valores a una matriz, utiliza
 	<body>
 		<?php
 			$menu = array (
-				"primer_plato" => "ensalada", 
+				"primer_plato" => "ensalada",
 				"segundo_plato" => "solomillo",
 				"postre" => "manzana"
 			);
-			echo $menu["segundo_plato"];			
+			echo $menu["segundo_plato"];
 		?>
 	</body>
 </html>
@@ -3400,39 +3400,39 @@ Ahora que hemos visto la manera de crear y asignar valores a una matriz, utiliza
 
 Una **matriz multi-dimensional** es una matriz en la que **uno o más elementos de las matrices es a su vez otra matriz**. Suponga que desea recopilar datos personales de más de una persona, y que por cada persona registrará su nombre, fecha de nacimiento y ciudad de residencia.
 ```php
-$persona = array( 
+$persona = array(
 		array(
-			'nombre' => 'Juan', 
-			'apellido'=> 'Lopez', 
-			'fecha_nacimiento' => '1973/06/15', 
-			'residencia'=> 'Madrid'), 
+			'nombre' => 'Juan',
+			'apellido'=> 'Lopez',
+			'fecha_nacimiento' => '1973/06/15',
+			'residencia'=> 'Madrid'),
 		array(
-			'nombre' => 'Maria', 
-			'apellido'=> 'Flores', 
-			'fecha_nacimiento' => '1968/04/05', 
-			'residencia'=> 'Sevilla'), 
+			'nombre' => 'Maria',
+			'apellido'=> 'Flores',
+			'fecha_nacimiento' => '1968/04/05',
+			'residencia'=> 'Sevilla'),
 		array(
-			'nombre' => 'Ana', 
-			'apellido'=> 'Garrido', 
-			'fecha_nacimiento' => '1964/11/26', 
+			'nombre' => 'Ana',
+			'apellido'=> 'Garrido',
+			'fecha_nacimiento' => '1964/11/26',
 			'residencia'=> 'Barcelona')
 		);
 print $persona[0]['apellido']; // imprime 'Lopez"'
 print $persona[1]['residencia']; // imprime 'Sevilla"'
 print $persona[2]['nombre']; // imprime 'Ana"'
 ```
-Con este código, hemos definido un array **formado a su vez por tres arrays**, numerados separados por comas, cada uno de ellos ha recibido el índice numérico a partir de 0. 
+Con este código, hemos definido un array **formado a su vez por tres arrays**, numerados separados por comas, cada uno de ellos ha recibido el índice numérico a partir de 0.
 Dentro de cada serie, en cambio, todos los índices han sido referidos como asociativo. Tenga en cuenta que, aunque en este caso cada una de las tres matrices tenía la misma estructura 'interna' es posible dar a cada conjunto una estructura autónoma. Tomemos otro ejemplo:
 ```php
-$persona= array( 
+$persona= array(
 		1 => 	array(
-			'nombre' => 'Juan Lopez', 
-			'residencia'=> 'Madrid', 
-			'trabajo' => 'funcionario'), 
+			'nombre' => 'Juan Lopez',
+			'residencia'=> 'Madrid',
+			'trabajo' => 'funcionario'),
 		2 => array(
-			'nombre"'=> 'Maria Flores', 
-			'fecha_nacimiento' => "'1968/04/05', 
-			'residencia'=> 'Sevilla'), 
+			'nombre"'=> 'Maria Flores',
+			'fecha_nacimiento' => "'1968/04/05',
+			'residencia'=> 'Sevilla'),
 		'total_elementos' => 2);
 print $persona[1]['residencia']; // imprime 'Sevilla'
 print $persona['total_elementos']; // imprime '2'
@@ -3553,7 +3553,7 @@ En este caso, nuestra gama está formada por dos conjuntos, a los que hemos asig
 				'fantasia' => array (
 					'titulo' => 'El Hobbit',
 					'autor' => 'J.R.R Tolkien',
-					'fecha' => '1937'	
+					'fecha' => '1937'
 				),
 				'terror' => array (
 					'titulo' => 'Carrie',
@@ -3565,7 +3565,7 @@ En este caso, nuestra gama está formada por dos conjuntos, a los que hemos asig
 		?>
 	</body>
 </html>
-``` 
+```
 6.4.Bucle Foreach
 -----------------
 El constructor foreach proporciona un modo sencillo de iterar sobre arrays. foreach funciona sólo sobre arrays y objetos, y emitirá un error al intentar usarlo con una variable de un tipo diferente de datos o una variable no inicializada. Existen dos sintaxis:
@@ -3644,7 +3644,7 @@ La segunda forma además asigna la clave del elemento actual a la variable $clav
 				$total += $n;
 			}
 			$promedio = $total / count($notas);
-			echo $promedio; 
+			echo $promedio;
 		?>
 	</body>
 </html>
@@ -3664,7 +3664,7 @@ La segunda forma además asigna la clave del elemento actual a la variable $clav
 			$notas = array (3, 6, 5, 8, 4, 2, 6, 3, 9, 2, 8, 7);
 
 			$promedio = array_sum($notas)/count($notas);
-			echo $promedio; 
+			echo $promedio;
 
 		?>
 
@@ -3676,7 +3676,7 @@ La segunda forma además asigna la clave del elemento actual a la variable $clav
 
 ----------------------------------
 
-**Ejercicio 6.8.** 
+**Ejercicio 6.8.**
 ```php
 <html lang="es">
 	<head>
@@ -3868,7 +3868,7 @@ general:
 			'4',
 			'5.6'
 		);
-	foreach ($cadena as $a) {					
+	foreach ($cadena as $a) {
 		$is_string=(is_string($a)) ? "$a es una cadena</br>" : "$a NO ES UNA CADENA<br/>";
 		echo  $is_string;
 	}
@@ -3893,7 +3893,7 @@ general:
 
 **print_r (valor)** imprimir (directamente en el navegador) información sobre el contenido de la variable que pasamos. Es útil en la depuración, nuestros programas provocan comportamientos 'extraña' y queremos comprobar el contenido de ciertos datos. Si el valor pasado es un array, la función muestra las claves y sus valores. Devuelve un valor booleano.
 
-**unset (valor)** destruye las variables especificadas. En realidad no es una función, sino una construcción del lenguaje. Después de unset(), la ejecución de empty() o is_null() en la misma variable devolverá true, mientras que isset() devolverá falso. No devuelve valores. 
+**unset (valor)** destruye las variables especificadas. En realidad no es una función, sino una construcción del lenguaje. Después de unset(), la ejecución de empty() o is_null() en la misma variable devolverá true, mientras que isset() devolverá falso. No devuelve valores.
 
 Vamos a ver algunos ejemplos para aclarar el uso de estas funciones:
 ```php
@@ -3958,7 +3958,7 @@ Los caracteres se cuentan desde cero, de forma que si se llama a la función `su
 ```
 Por ejemplo, con `substr (cadena, -5, 3)` se obtendrán tres caracteres a partir de quintultimo (tenga en cuenta que, en este caso, el recuento no empieza de cero, sino a partir de 1: es decir, -1 indica el último carácter, -2 el penúltimo y así sucesivamente).
 Por último, si se especifica un número negativo como tercer parámetro, el parámetro ya no se utiliza como el número de caracteres devuelto, sino como el número de caracteres a mostrar de la parte final. Ejemplo: `substr (cadena, 3, -2)` devuelve los caracteres de la cuarta a la tercera posición.
-**str_replace (cadena, cadena, cadena)** Hace una sustitución de la primera cadena con la segunda dentro de la tercera. Por ejemplo: `str_replace ('p', 't', 'plato')` sustituye a 'p' con la 't' en 'plato', y devuelve 'plapo'. 
+**str_replace (cadena, cadena, cadena)** Hace una sustitución de la primera cadena con la segunda dentro de la tercera. Por ejemplo: `str_replace ('p', 't', 'plato')` sustituye a 'p' con la 't' en 'plato', y devuelve 'plapo'.
 También hay una función `str_ireplace()` , que es equivalente, pero que busca la primera cadena en la tercera, sin tener en cuenta la diferencia entre mayúsculas y minúsculas.
 ```php
 <?php
@@ -4036,7 +4036,7 @@ Por ejemplo: `explode(' ', 'hola Juan')` devuelve un array de dos elementos: pri
 
 ----------------------------------
 
-**Ejercicio 7.1.** Partiremos de la siguiente cadena de caracteres: `$texto = "uno-dos-tres-cuatro-cinco";` 
+**Ejercicio 7.1.** Partiremos de la siguiente cadena de caracteres: `$texto = "uno-dos-tres-cuatro-cinco";`
 Crear una página que, a partir de esta cadena, muestre una lista con los elementos de la misma que resultan de partirla usando como carácter separador el guion '-' de la siguiente forma:
 * uno
 * dos
@@ -4152,8 +4152,8 @@ Vamos en este tema a repasar algunas de las funciones que operan sobre matrices 
 		'PrimerP' => array ('sopa', 'ensalada', 'pasta'),
 		'SegundoP' => array ('carne', 'pescado', 'paella')
 		);
-	$a = count($menu['PrimerP']); 
-	$b = count($menu['SegundoP']); 
+	$a = count($menu['PrimerP']);
+	$b = count($menu['SegundoP']);
 	$total = $a + $b;
 	echo $total;
 ?>
@@ -4166,7 +4166,7 @@ Los valores se disponen en orden ascendente de acuerdo a los criterios que vimos
 	$nombre = array ('ana', 'pedro', 'luís', 'marta', 'Ana', 'Pedro');
 	sort($nombre, SORT_NATURAL | SORT_FLAG_CASE);
 	foreach ($nombre as $persona) {
-		echo $persona.'<br/>';				
+		echo $persona.'<br/>';
 	}
 ?>
 ```
@@ -4227,12 +4227,12 @@ $cadena = implode(' ', $arr); // $cadena se convierte en 'Mateo Antonio Juan Jos
 * 'Jose', 'Marcos',' Antonio', 'Pablo',
 * 'Mateo', 'Juan', 'Lucas' (estos son los 7 de $arr1). Los índices irán de 0 a 12.
 */
-$new_arr = array_merge($arr, $arr1); 
+$new_arr = array_merge($arr, $arr1);
 // Preparamos un array con claves asociativas:
 $famila = array(
-		'padre' => 'Claudio', 
-		'madre' => 'Paula', 
-		'hijo'=> 'Marcos', 
+		'padre' => 'Claudio',
+		'madre' => 'Paula',
+		'hijo'=> 'Marcos',
 		'hija' => 'Elisa');
 // Creamos una copia de nuestro array para poder hacer experimentos
 $fam1 = $familia;
@@ -4258,7 +4258,7 @@ $a = array_search('Mateo', $fam1); // $a es FALSE
 -------------------------------------
 Concluimos este resumen de las funciones de PHP con algunas funciones dedicadas al manejo de fechas y horas. Antes de comenzar debemos hacer una mención del timestamp, en el que se basa en estas características. El timestamp es un entero, en uso desde los primeros tiempos de los sistemas UNIX, lo que le lleva a estar representado de forma interna como el número de segundos transcurridos desde el 1 de enero 1970 . Por ejemplo, la marca de tiempo en relativo a 15:56:20 del 24 de abril de 2003 fue 1,051,192,580.
 Vamos a verlas en detalle:
-**time ()** Este es el más simple de todos, ya que proporciona el timestamp del momento en el que se ejecuta. Devuelve un entero (fecha y hora). 
+**time ()** Este es el más simple de todos, ya que proporciona el timestamp del momento en el que se ejecuta. Devuelve un entero (fecha y hora).
 **date (formato [, timestamp])** Se considera el timestamp dado en la función (y si no se especifica, se considera la actual), y proporciona una fecha formateada de acuerdo con las especificaciones que figuran en el primer parámetro. Estas especificaciones se basan en una tabla de valores que resumimos a continuación:
 
 | Código | Descripción |
@@ -4281,7 +4281,7 @@ Vamos a verlas en detalle:
 
 **date()** La función date() devuelve una cadena con formato que representa la fecha.
 **mktime (hora, minuto, segundo, mes, día, año)** Es una característica muy útil, pero debe manejarse con cuidado, ya que los parámetros que requieren entradas (todos números enteros) tienen un fin muy particular, que puede fácilmente conducir a errores.
-Sobre la base de estos parámetros, mktime() calcula la fecha y hora, pero lo más interesante es que podemos usarla para hacer cálculos sobre fechas. De hecho, si por ejemplo, en el parámetro mes pasamos 14, PHP lo interpretará como 12 + 2 , es decir, "febrero del año siguiente", y considerará el mes de febrero del año siguiente. 
+Sobre la base de estos parámetros, mktime() calcula la fecha y hora, pero lo más interesante es que podemos usarla para hacer cálculos sobre fechas. De hecho, si por ejemplo, en el parámetro mes pasamos 14, PHP lo interpretará como 12 + 2 , es decir, "febrero del año siguiente", y considerará el mes de febrero del año siguiente.
 Obviamente, el mismo tipo de cálculos se pueden hacer sobre todos los demás parámetros. Devuelve un entero (fecha y hora).
 **checkdate (mes, día, año)** Comprueba si los valores transmitidos representan una fecha válida. Devuelve un valor booleano.
 Vamos a ver algunos ejemplos de estas funciones:
@@ -4387,7 +4387,7 @@ actual, de la siguiente manera:
 --------------------------------
 
 Como hemos visto en lecciones anteriores, además de las numerosas funciones integradas en PHP, disponemos de la capacidad de **definir funciones que nos permiten realizar ciertas tareas en diferentes partes de nuestro script**, o mejor aún, **en distintos scripts**, simplemente recordando la porción del código relacionado, a los que hemos asignado un nombre que identifica la función en sí. Vamos a ver ahora cómo definir una función.
-Veamos un ejemplo sencillo. Queremos construir una función que, dados tres números, devuelva el mayor de los tres. Veamos el código: 
+Veamos un ejemplo sencillo. Queremos construir una función que, dados tres números, devuelva el mayor de los tres. Veamos el código:
 ```php
 function el_mayor($num1, $num2, $num3){
 	if (! is_numeric($num1)) { return false; }
@@ -4540,7 +4540,7 @@ Con este sistema hemos sido capaces de devolver los tres valores de una función
 $a = 7;
 $mul = multiplos($a); // $mul será un array de tres elementos
 ```
-Si nos interesa, también podemos utilizar un constructor del lenguaje para desplegar de inmediato los tres valores en tres variables distintas. 
+Si nos interesa, también podemos utilizar un constructor del lenguaje para desplegar de inmediato los tres valores en tres variables distintas.
 ```php
 list($doble, $triple, $quintuple) = multiplos($a);
 ```
@@ -4549,7 +4549,7 @@ El constructor list() se utiliza para asignar valores de una matriz (la señalad
 $arr = array('Marcos','Pablo','Lucas');
 list($primero, $segundo, $tercero) = $arr;
 ```
-En este caso, $primero tomar el valor 'Marcos', $segundo 'Pablo', $tercero, el valor 'Lucas'. 
+En este caso, $primero tomar el valor 'Marcos', $segundo 'Pablo', $tercero, el valor 'Lucas'.
 Una aclaración: acabamos de ver que la función termina con la declaración return. En realidad esto no es necesario: de hecho, en el caso que no haya valores devueltos, podemos omitir la instrucción return, y la ejecución de la función termina cuando llegue al final del código en cuestión, devolviéndose el control al script principal (u otra función eventualmente llamada).
 
 **[Regresar al índice](#indice)**
@@ -4757,7 +4757,7 @@ Una aclaración: acabamos de ver que la función termina con la declaración ret
 **Argumentos opcionales** En ciertas situaciones, podemos crear funciones en las que **no es obligatorio que todos los argumentos presentados sean usados**. Hemos visto, en la lección anterior, que algunas funciones de PHP proporcionan **parámetros opcionales**. Lo mismo ocurre con las funciones definidas por nosotros: si, en el momento en el que se define la función, disponemos de un valor predeterminado para un parámetro, el parámetro se convierte en opcional cuando se llama a la función, y, si falta, la función utilizará el valor predeterminado.
 Como ejemplo, consideremos una función que imprime los datos personales de una persona:
 ```php
-function personal($nombre, $direccion, $nif='no disponible') 
+function personal($nombre, $direccion, $nif='no disponible')
  print "Nombre: $nombre<br>"•;
  print "Direccion: $direccion<br>"•;
  print "N.I.F.: $cf<br>"•;
@@ -4824,7 +4824,7 @@ En el segundo caso no se ha indicado NIF, así que la función utiliza el valor 
 **Ejercicio 8.2.** Elabora una función que devuelva un array separado por comas (*,*), menos el último elemento separado por *y*.
 ```php
 <?php
-$numbers=[1, 3, 4, 7, 8, 9];	
+$numbers=[1, 3, 4, 7, 8, 9];
 function return_list_elements ($array){
 	if(!isset($array) || !is_array($array)){
 		echo "Error return_list_elements: no se ha introducido un array.</br>";
@@ -4874,9 +4874,9 @@ switch ($data_type){
 };
 $is_number=is_numeric($data);
 if($is_number){
-	echo "El dato introducido es un número, "; 
+	echo "El dato introducido es un número, ";
 }else{
-	echo "El dato introducido NO es un número, "; 
+	echo "El dato introducido NO es un número, ";
 };
 data_type ($data);
 ?>
@@ -4906,7 +4906,7 @@ $table= array(
 function file_column_max($array_multi){
     $i=0;
     foreach ($array_multi as $key => $category){
-        $file_colum_max[$i]=count($array_multi);   
+        $file_colum_max[$i]=count($array_multi);
         $i++;
     }
     return $file_colum_max;
@@ -4951,7 +4951,7 @@ function tabla($numero){
 		$cuenta = $i*$numero;
 		$tabla .= "{$i} x {$numero} = {$cuenta} <br/>";
 	}
-	
+
 	return $tabla;
 }
 
@@ -4983,7 +4983,7 @@ function tabla($numero, $html=null){
 	}
 	if($html!=null){
 		echo $tabla;
-	}	
+	}
 	return $tabla;
 }
 echo "<h1>Tablas de multiplicar</h1>";
@@ -5000,7 +5000,7 @@ for($i = 1; $i <= 10; $i++){
 
 9.PROGRAMACIÓN ORIENTADA A OBJETOS
 ==================================
-La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema. 
+La POO es un paradigma de programación que utiliza objetos e interacciones en el diseño de un sistema.
 Compuesta por varios elementos y características.
 **ELEMENTOS DE LA POO CLASE** Es un modelo que se utiliza para crear objetos que comparten un mismo comportamiento, estado e identidad.
 
@@ -5342,7 +5342,7 @@ final class NombreDeMiClaseFinal {
 | **Necesito una clase qué pueda... **                 		|Instanciable	| Abstracta	 | Heredada	| Final |
 |---------------------------------------------------------------|:-------------:|:--------------:|:------------:|:-----:|
 | Ser instanciada y/o heredada	                           	| ✔		| ☓    		| ☓	       | ☓     |
-| Guardar relación con métodos y atributos de otra		| ☓		| ☓		| ✔	       | ☓     | 
+| Guardar relación con métodos y atributos de otra		| ☓		| ☓		| ✔	       | ☓     |
 | Servir de modelo para otras, sin que pueda instanciarse	| ☓		| ✔		| ☓	       | ☓     |
 | Instanciarse pero que no pueda ser heredada			| ☓		| ☓		| ☓	       | ✔     |
 
@@ -5373,7 +5373,7 @@ class NombreDeMiClase {
 	}
 }
 ```
-* **PROTEGIDOS** Se definen anteponiendo la palabra clave `protected` al nombre del atributo o método. Pueden ser accedidos por la propia clase que los definió, así como por las clases que la heredan, pero no, desde otras partes de la aplicación.	
+* **PROTEGIDOS** Se definen anteponiendo la palabra clave `protected` al nombre del atributo o método. Pueden ser accedidos por la propia clase que los definió, así como por las clases que la heredan, pero no, desde otras partes de la aplicación.
 ```php
 <?php
 class NombreDeMiClase {
@@ -5510,7 +5510,7 @@ $objeto->metodo_publico();
 ```
 
 * **FUERA DE LA CLASE Y SIENDO ESTÁTICO** No es necesario instanciar la clase. Sólo se pueden acceder a métodos y atributos públicos
-```php 
+```php
 <?php
 Clase::atributo_publico;
 Clase::metodo_publico();
@@ -5539,20 +5539,20 @@ A lo largo de los ejemplos de este manual vamos a ir creando un código para ges
 
 **Ejemplo Uso constructor**
 ```php
-class cliente{ 
-   	public $nombre; 
-   	public $numero; 
-   	public $peliculas_alquiladas; 
+class cliente{
+   	public $nombre;
+   	public $numero;
+   	public $peliculas_alquiladas;
 
-   	function __construct($nombre,$numero){ 
-      	$this->nombre=$nombre; 
-      	$this->numero=$numero; 
-      	$this->peliculas_alquiladas=array(); 
-   	} 
+   	function __construct($nombre,$numero){
+      	$this->nombre=$nombre;
+      	$this->numero=$numero;
+      	$this->peliculas_alquiladas=array();
+   	}
 
-   	function dame_numero(){ 
-      	return $this->numero; 
-   	} 
+   	function dame_numero(){
+      	return $this->numero;
+   	}
 }
 ```
 El constructor en esta clase recibe el nombre y número que asignar al cliente, que introduce luego en sus correspondientes propiedades. Además inicializa el atributo películas_alquiladas como un array, en este caso vacío porque todavía no tiene ninguna película en su poder.
@@ -5565,17 +5565,17 @@ El constructor en esta clase recibe el nombre y número que asignar al cliente, 
 
 Luego hemos creado un método muy sencillo para poder utilizar el objeto. Vamos a ver unas acciones simples para ilustrar el proceso de instanciación y utilización de los objetos.
 ```php
-//instanciamos un par de objetos cliente 
-$cliente1 = new cliente("Pepe", 1); 
-$cliente2 = new cliente("Roberto", 564); 
+//instanciamos un par de objetos cliente
+$cliente1 = new cliente("Pepe", 1);
+$cliente2 = new cliente("Roberto", 564);
 
-//mostramos el numero de cada cliente creado 
-echo "El identificador del cliente 1 es: " . $cliente1->dame_numero(); 
+//mostramos el numero de cada cliente creado
+echo "El identificador del cliente 1 es: " . $cliente1->dame_numero();
 echo "El identificador del cliente 2 es: " . $cliente2->dame_numero();
 ```
 Este ejemplo obtendría esta salida como resultado de su ejecución:
 
-El identificador del cliente 1 es: 1 
+El identificador del cliente 1 es: 1
 El identificador del cliente 2 es: 564
 
 **[Regresar al índice](#indice)**
@@ -5593,7 +5593,7 @@ class calculadoraEuro{
         echo 'El valor del euro es: '. $this->dolar_euro;
     }
     public function dolaresEuros( $dolares){
-        return $dolares.' dolares son '. ($dolares * $this->dolar_euro) .' euros';  
+        return $dolares.' dolares son '. ($dolares * $this->dolar_euro) .' euros';
     }
 }
 $calculadora = new calculadoraEuro();
@@ -5656,7 +5656,7 @@ echo $producto4->nombre . PHP_EOL;
 9.9.2.Destructor
 ----------------
 Es el encargado de liberar de la memoria, al objeto cuando ya no es referenciado. Se puede aprovechar este método, para realizar otras tareas que se estimen necesarias al momento de destruir un objeto.
-```php		
+```php
 <?php
 class NombreDeMiClase {
 	function __destruct() {
@@ -5681,9 +5681,9 @@ Las **interfaces** de objetos son contratos que han de cumplir las **clases** qu
 
 Si una clase implementa una _**interface**_, está obligada a usar todos los métodos de la misma (y los mismos tipos de argumentos de los métodos), de lo contrario dará un **error fatal**. Pueden emplearse **más de una interface en cada clase**, y pueden **extenderse** entre ellas mediante _extends_. Una interface puede extender una o más interfaces.
 
-Todos los métodos declarados en una interface deben ser públicos. 
+Todos los métodos declarados en una interface deben ser públicos.
 
-Para definir una interface se utiliza la parabra _**interface**_, y para extenderla se utiliza _**implements**_. 
+Para definir una interface se utiliza la parabra _**interface**_, y para extenderla se utiliza _**implements**_.
 
 ```php
 interface Automovil {
@@ -5840,7 +5840,7 @@ try {
 } catch (Exception $e){
     echo 'Excepción capturada: '.$e->getMessage()."<br>";
 }
-// Devuelve: Excepción capturada: Mensaje desde unaFuncion(). 
+// Devuelve: Excepción capturada: Mensaje desde unaFuncion().
 ```
 Cuando hemos llamado a otraFuncion(), intentamos calcular **cualquier excepción**. Aunque otraFuncion() no lance una de forma directa, sí lo hace unaFuncion(). Ocurriría lo mismo si se añadiera otro nivel, y unaFuncion() llamara a otra que lanzara una excepción. Este funcionamiento puede producir que no se sepa de donde viene la excepción exactamente, por eso existe la función Exception::getTraceAsString, que devuelve la pila de una excepción como una cadena de caracteres.
 ```php
@@ -5877,8 +5877,8 @@ En el ejemplo anterior, hacerAlgo() lanza una primera excepción InvalidArgument
 class Person {
 /* TIPOS DE VISIBILIDAD PROPIEDADES: public, protected, private */
 //No pueden ser modificados directamente necesitan de un método
-	protected $firstName; 
-	protected $lastName; 
+	protected $firstName;
+	protected $lastName;
 	protected $birthdayDate;
 	protected $changedFirstName=0;
 //Pueden ser modificados directamente NO necesitan de un método
@@ -5892,38 +5892,38 @@ class Person {
 		$this->birthdayDate=new DateTime($birthdayDate);
 	}
 
-/* MÉTODOS SETTER */	
+/* MÉTODOS SETTER */
 	public function setFirstName (string $firstName){
 		if($this->changedFirstName <2){
 			$this->firstName=strtolower($firstName);
 			$this->changedFirstName++;
 		}else{
-			throw new Exception("You can't change a firstName more then 2 times"); 
+			throw new Exception("You can't change a firstName more then 2 times");
 		}
 	}
-	
+
 	public function setNickName (string $nickName){
     //contiene dos caracteres y es una cadena de texto
 		if(strlen($nickName)>2 && is_string($nickName)){
 			$this->nickName;
 		}else{
-			throw new Exception("You nickName must be text and have more than two characters"); 
+			throw new Exception("You nickName must be text and have more than two characters");
 		}
 	}
-	
-/* MÉTODOS GETTER */	
+
+/* MÉTODOS GETTER */
 	public function getFirstName () :string {
 		return ucfirst($this->firstName);
 	}
-	
+
 	public function getLastName () :string {
 		return ucfirst($this->lastName);
 	}
-	
+
 	public function getFullName() :string{
 		return ucwords(($this->firstName).' '.($this->lastName));
 	}
-	
+
 	public function getAge(){
 		$birthdayDate=$this->birthdayDate;
  		$now = new DateTime();
@@ -5932,7 +5932,7 @@ class Person {
 	}
 }
 
-/* PRUEBAS CLASE GENERADA */	
+/* PRUEBAS CLASE GENERADA */
 $person1 = new Person ('duilio' , 'palacios', '10-10-2010');
 // print_r($person1);
 $person1->setFirstName('Pepe Luis');
@@ -5962,7 +5962,7 @@ echo "La Persona: ".$person1->getFullName()."tiene ".$person1->getAge()." años.
 abstract class Unit {
 	protected $alive=true;
 	protected $name;
-	
+
 	public function __construct (string $name){
 		$this->name=strtolower($name);
 	}
@@ -5971,8 +5971,8 @@ abstract class Unit {
 		$name=ucfirst($this->name);
 		echo "<p>$name avanza hacia $direction</p>";
 	}
-	
-// Método Abstracto	
+
+// Método Abstracto
 	abstract public function attack($opponent);
 }
 
@@ -5982,7 +5982,7 @@ class Soldier extends Unit {
 	public function attack($opponent){
 		$name=ucfirst($this->name);
 		echo "<p>$name corta al $opponent en dos.</p>";
-	}	
+	}
 }
 
 class Archer extends Unit {
@@ -5992,8 +5992,8 @@ class Archer extends Unit {
 	}
 }
 
-/* 
-//Devolvería error al ser una clase abstracta, 
+/*
+//Devolvería error al ser una clase abstracta,
 //habría que instanciar una clase no abstracta
 $silence = new Unit('Silence');
 */
@@ -6017,12 +6017,12 @@ function show($message){
 abstract class Unit {
 	protected $hp=40;
 	protected $name;
-	
+
 	public function __construct (string $name){
 		$this->name=strtolower($name);
 	}
-// Método Abstracto	
-	// Indicamos que en la siguiente función debe pasarse 
+// Método Abstracto
+	// Indicamos que en la siguiente función debe pasarse
 	// un parámetro de la clase Unit
 	abstract public function attack(Unit $opponent);
 // Método GETTER
@@ -6040,9 +6040,9 @@ abstract class Unit {
 	}
 	public function Die(){
 		$name=ucfirst($this->name);
-		show("$name muere.");	
+		show("$name muere.");
 	}
-	
+
 	public function takeDamage($damage){
 		$this->setHp($this->hp - $damage);
 		if($this->hp <=0){
@@ -6065,7 +6065,7 @@ class Soldier extends Unit {
 		$name=ucfirst($this->name);
 		show("$name corta al {$opponent->getName()} en dos.");
 		$opponent->takeDamage($this->damage);
-	}	
+	}
 	public function takeDamage($damage){
 		return parent::takeDamage($damage / 2);
 	}
