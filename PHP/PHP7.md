@@ -46,7 +46,7 @@ INDICE
 6. [ARRAYS](#6arrays)
 	1. [Array Escalar](#61array-escalar)
 	2. [Array Asociativo](#62array-asociativo)
-	3. [Array Bidimensional y Multidimensonal](#63array-bidimensional-y-multidimensional)
+	3. [Array Bidimensional y Multidimensonal](#63bidimensional-y-multidimensional)
 	4. [Buble Foreach](#64bucle-foreach)
 7. [FUNCIONES](#7funciones)
 	1. [Funciones que trabajan con Variables](#71funciones-que-trabajan-con-variables)
