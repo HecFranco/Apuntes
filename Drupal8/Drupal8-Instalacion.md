@@ -55,6 +55,39 @@ Tambien encontraré el acceso directo a este archivo en el submenú de **[WAMP](
 
 ![WAMP-virtualhost-httpd-vhosts.conf](https://github.com/HecFranco/Apuntes/blob/master/capture/WAMP-virtualhost-httpd-vhosts.conf.jpg)
 
+```conf
+# Ensure that Apache listens on port 80
+Listen 80
+<VirtualHost *:80>
+    DocumentRoot "/www/example1"
+    ServerName www.example.com
+
+    # Other directives here
+</VirtualHost>
+
+<VirtualHost *:80>
+    DocumentRoot "/www/example2"
+    ServerName www.example.org
+
+    # Other directives here
+</VirtualHost>
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Por ello debemos tener las herramientas correspondientes instaladas en nuesta computadora, recomendandose usar un entorno linux, (ver manual LinuxVirtual):
 * **[curl](https://curl.haxx.se/)**
 * **[composer](https://getcomposer.org/)**
