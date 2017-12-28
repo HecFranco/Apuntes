@@ -9,10 +9,9 @@ Crea tu nuevo proyecto ejecutando:
 
 Esto creará un nuevo directorio my-project, descargará algunas dependencias e incluso generará los directorios y archivos básicos que necesitará para comenzar. En otras palabras, ¡tu nueva aplicación está lista!
 
-| También puede descargar una versión específica de Symfony:                                                    |
-|---------------------------------------------------------------------------------------------------------------|
-| `composer create-project symfony/skeleton my-project "3.3.*" `                                                |
-| `composer create-project symfony/skeleton my-project 3.3.0-BETA1`                                             |
+|  También puede descargar una versión específica de Symfony:                                                                            |
+|:---------------------------------------------------------------------------------------------------------------------------------------|
+| `composer create-project symfony/skeleton my-project "3.3.*" `<br/>`composer create-project symfony/skeleton my-project 3.3.0-BETA1`   |
 | Algunas versiones son versiones de soporte a largo plazo (LTS). Lea el proceso de publicación de Symfony para obtener más información. |
 
 Running your Symfony Application¶
