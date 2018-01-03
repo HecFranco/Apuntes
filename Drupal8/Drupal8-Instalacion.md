@@ -39,54 +39,7 @@ Descomprimo la carpeta y la guardo dentro de nuestra carpeta del proyecto, en es
 * **C:\wamp64\www\drupal_new_project**, **[WAMP](http://www.wampserver.com/en/)** en windows
 * **C:\xampp\htdocs\drupal_new_project**, **[XAMPP](https://www.apachefriends.org/es/index.html)** en windows
 
-1.1.3.Creación de un Dominio Virtual
-------------------------------------
-
-## Mediante Wamp, mediante gestor
-Entro en **localhost**, y selecciono la opción de **Add HostVirtual**
-
-![WAMP - LocalHost](https://github.com/HecFranco/Apuntes/blob/master/capture/WAMP-dominioVirtual_01.jpg)
-
-![WAMP - Add a Host Virtual](https://github.com/HecFranco/Apuntes/blob/master/capture/WAMP-dominioVirtual_02.jpg)
-
-## Mediante Wamp, manualmente
-Accedo dentro de **C:\wamp64\bin\apache\apache2.4.27\conf\extra**, siendo **"apache2.4.27"** la versión instalada de **APACHE**, y edito el archivo **httpd-vhost.conf**.
-Tambien encontraré el acceso directo a este archivo en el submenú de **[WAMP](http://www.wampserver.com/en/)** del inicio rápido de windows. 
-
-![WAMP-virtualhost-httpd-vhosts.conf](https://github.com/HecFranco/Apuntes/blob/master/capture/WAMP-virtualhost-httpd-vhosts.conf.jpg)
-
-```conf
-# Ensure that Apache listens on port 80
-Listen 80
-<VirtualHost *:80>
-    DocumentRoot "/www/example1"
-    ServerName www.example.com
-
-    # Other directives here
-</VirtualHost>
-
-<VirtualHost *:80>
-    DocumentRoot "/www/example2"
-    ServerName www.example.org
-
-    # Other directives here
-</VirtualHost>
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+...........................................
 
 Por ello debemos tener las herramientas correspondientes instaladas en nuesta computadora, recomendandose usar un entorno linux, (ver manual LinuxVirtual):
 * **[curl](https://curl.haxx.se/)**
