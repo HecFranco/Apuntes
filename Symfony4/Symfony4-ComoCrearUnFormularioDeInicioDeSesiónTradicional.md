@@ -91,4 +91,22 @@ Finalmente, crea la plantilla:
 </form>
 ```
 
+**IMPORTANTE!** La variable de `error` pasada a la plantilla es una instancia de [AuthenticationException](http://api.symfony.com/4.0/Symfony/Component/Security/Core/Exception/AuthenticationException.html). Puede contener más información, o incluso información confidencial, sobre la falla de autenticación, ¡así que úsala con prudencia!
+
+La forma puede parecerse a cualquier cosa, pero generalmente sigue algunas convenciones:
+
+* El elemento `<form>` envía una solicitud POST a la ruta de inicio de sesión, ya que eso es lo que ha configurado bajo la clave `form_login` en `security.yaml`;
+* El campo de nombre de usuario tiene el nombre `_username` de usuario y el campo de contraseña tiene el nombre `_password`.
+
+En realidad, todo esto se puede configurar bajo la clave form_login. Vea Configuración de inicio de [sesión de formulario ( form_login)](https://symfony.com/doc/current/reference/configuration/security.html#reference-security-firewall-form-login) para más detalles.
+
+¡Y eso es! Cuando envía el formulario, el sistema de seguridad verificará automáticamente las credenciales del usuario y autenticará al usuario o enviará al usuario al formulario de inicio de sesión donde se puede mostrar el error.
+
+Para revisar todo el proceso:
+
+* El usuario intenta acceder a un recurso que está protegido;
+* El firewall inicia el proceso de autenticación redirigiendo al usuario al formulario de inicio de sesión (`/login`);
+* La página `/login` muestra el formulario de inicio de sesión a través de la ruta y el controlador creado en este ejemplo;
+* El usuario envía el formulario de inicio de sesión a `/login`;
+* El sistema de seguridad intercepta la solicitud, verifica las credenciales enviadas por el usuario, autentica al usuario si son correctas y envía al usuario nuevamente al formulario de inicio de sesión si no lo está.
 .............
