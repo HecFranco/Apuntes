@@ -175,3 +175,11 @@ Cree un archivo llamado `quickstart.html` y copie en el siguiente código:
   </body>
 </html>
 ```
+
+Al cargar la página veremos...
+
+![GoogleCalendarAPI_JavaScript_12](https://github.com/HecFranco/Apuntes/blob/master/capture/GoogleCalendarAPI_JavaScript_12.jpg)
+
+y podremos loguearnos con nuestra cuenta.
+
+![GoogleCalendarAPI_JavaScript_13](https://github.com/HecFranco/Apuntes/blob/master/capture/GoogleCalendarAPI_JavaScript_13.jpg)
