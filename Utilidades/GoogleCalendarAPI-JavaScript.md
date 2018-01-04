@@ -1,5 +1,5 @@
-1.Navegador de inicio rápido
-------------------------------
+1.Inicio rápido
+---------------
 
 Complete los pasos que se describen en el resto de esta página, y en aproximadamente cinco minutos tendrá una aplicación de navegador simple que realiza solicitudes a la API de Google Calendar.
 
@@ -84,17 +84,17 @@ Cree un archivo llamado `quickstart.html` y copie en el siguiente código:
     <button id="signout-button" style="display: none;">Sign Out</button>
     <pre id="content"></pre>
     <script type="text/javascript">
-      // Client ID and API key from the Developer Console
+      // ID de cliente y clave de API de Developer Console
       var CLIENT_ID = '697142729422-vi3qn5jbnfu917qgatbnkt7bte1vg6ki.apps.googleusercontent.com';
       var API_KEY = 'AIzaSyCUan2QBM9lVYkJFRsaHHxh8CV0tWZxInM';
-      // Array of API discovery doc URLs for APIs used by the quickstart
+      // Array de URL de documentación de descubrimiento de API para API utilizadas por el inicio rápido
       var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
-      // Authorization scopes required by the API; multiple scopes can be
-      // included, separated by spaces.
+      // Los ámbitos de autorización requeridos por la API; 
+      // múltiples ámbitos pueden ser incluidos, separados por espacios.
       var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
       var authorizeButton = document.getElementById('authorize-button');
       var signoutButton = document.getElementById('signout-button');
-      /* On load, called to load the auth2 library and API client library. */
+      / * En carga, llamado para cargar la biblioteca auth2 y la biblioteca del cliente API. * /
       function handleClientLoad() {
         gapi.load('client:auth2', initClient);
       }
@@ -175,11 +175,41 @@ Cree un archivo llamado `quickstart.html` y copie en el siguiente código:
   </body>
 </html>
 ```
+## Paso 3: iniciar el ejemplo
 
-Al cargar la página veremos...
+Usaremos un servidor local tipo **WAMP** o **XAMPP**.
+La primera vez que ejecute la muestra, le pedirá que autorice el acceso:
 
 ![GoogleCalendarAPI_JavaScript_12](https://github.com/HecFranco/Apuntes/blob/master/capture/GoogleCalendarAPI_JavaScript_12.jpg)
 
-y podremos loguearnos con nuestra cuenta.
+Haga clic en el botón **Autorizar** para abrir la ventana de autorización.
 
 ![GoogleCalendarAPI_JavaScript_13](https://github.com/HecFranco/Apuntes/blob/master/capture/GoogleCalendarAPI_JavaScript_13.jpg)
+
+Si todavía no ha iniciado sesión en su cuenta de Google, se le pedirá que inicie sesión. Si inició sesión en varias cuentas de Google, se le pedirá que seleccione una cuenta para usar para la autorización.
+
+Haga clic en el botón **Aceptar**.
+
+**NOTA** Después de la autorización inicial del usuario, las llamadas a `gapi.auth.authorize` que usan el modo `immediate:true` obtendrán un token de autenticación sin interacción del usuario.
+
+
+2.Referencia de API
+-------------------
+
+Esta referencia de API está organizada por tipo de recurso. Cada tipo de recurso tiene una o más representaciones de datos y uno o más métodos.
+
+2.1.Tipos de recursos
+---------------------
+
+**Acl** Para obtener detalles del recurso Acl, consulte la página de representación de recursos.
+
+<table>
+  <tr>
+    <td>Método</td><td>HTTP request</td><td>Descripción</td>
+  </tr>
+  <tr><td colspan="3">URIs relative to https://www.googleapis.com/calendar/v3, unless otherwise noted</td></tr>
+  <tr>
+    <td>delete</td><td>DELETE <br/> /calendars/calendarId/acl/ruleId</td><td>Deletes an access control rule.</td>
+  </tr>  
+</table>
+
