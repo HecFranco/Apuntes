@@ -91,7 +91,8 @@ Cree un archivo llamado `quickstart.html` y copie en el siguiente código:
       var DISCOVERY_DOCS = ["https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"];
       // Los ámbitos de autorización requeridos por la API; 
       // múltiples ámbitos pueden ser incluidos, separados por espacios.
-      var SCOPES = "https://www.googleapis.com/auth/calendar.readonly";
+      var SCOPES = "https://www.googleapis.com/auth/calendar.readonly"; // acceso de solo lectura a calendarios
+      var SCOPES = "https://www.googleapis.com/auth/calendar";          //acceso de lectura / escritura a calendarios
       var authorizeButton = document.getElementById('authorize-button');
       var signoutButton = document.getElementById('signout-button');
       / * En carga, llamado para cargar la biblioteca auth2 y la biblioteca del cliente API. * /
