@@ -216,3 +216,79 @@ Esta referencia de API está organizada por tipo de recurso. Cada tipo de recurs
   </tr>  
 </table>
 
+===============================================
+
+3.Añadir Evento
+---------------
+
+(Ver fuente ([aquí](https://developers.google.com/google-apps/calendar/create-events))
+
+Create Events
+Imagine an app that helps users find the best hiking routes. By adding the hiking plan as a calendar event, the users get a lot of help in staying organized automatically. Google Calendar helps them to share the plan and reminds them about it so they can get prepared with no stress. Also, thanks to seamless integration of Google products, Google Now pings them about the time to leave and Google Maps direct them to the meeting spot on time.
+
+This article explains how to create calendar events and add them to your users' calendars.
+
+Add an event
+To create an event, call the events.insert() method providing at least these parameters:
+
+calendarId is the calendar identifier and can either be the email address of the calendar on which to create the event or a special keyword 'primary' which will use the primary calendar of the logged in user. If you don't know the email address of the calendar you would like to use, you can check it either in the calendar's settings of the Google Calendar web UI (in the section "Calendar Address") or you can look for it in the result of the calendarList.list() call.
+event is the event to create with all the necessary details such as start and end. The only two required fields are the start and end times. See the event reference for the full set of event fields.
+Specify timed events using the start.dateTime and end.dateTime fields. For all-day events, use start.date and end.date instead.
+In order to successfully create events, you need to:
+
+set your OAuth scope to https://www.googleapis.com/auth/calendar.
+ensure the authenticated user has write access to the calendar with the calendarId you provided (for example by calling calendarList.get() for the calendarId and checking the accessRole).
+Add event metadata
+You can optionally add event metadata when you create a calendar event. If you choose not to add metadata during creation, you can update many fields using the events.update(); however, some fields, such as the event ID, can only be set during an events.insert() operation.
+
+Location
+Adding an address into the location field enables features such as "time to leave" or displaying a map with the directions.
+Event ID
+When creating an event, you can choose to generate your own event ID that conforms to our format requirements. This enables you to keep entities in your local database in sync with events in Google Calendar. It also prevents duplicate event creation if the operation fails at some point after it is successfully executed in the Calendar backend. If no event ID is provided, the server generates one for you. See the event ID reference for more information.
+Attendees
+The event you create appears on all the primary Google Calendars of the attendees you included with the same event ID. If you set sendNotifications to true on your insert request, the attendees will also receive an email notification for your event. See the events with multiple attendees guide for more information.
+The following examples demonstrate creating an event and setting its metadata:
+
+```javascript
+// Refer to the JavaScript quickstart on how to setup the environment:
+// https://developers.google.com/google-apps/calendar/quickstart/js
+// Change the scope to 'https://www.googleapis.com/auth/calendar' and delete any
+// stored credentials.
+
+var event = {
+  'summary': 'Google I/O 2015',
+  'location': '800 Howard St., San Francisco, CA 94103',
+  'description': 'A chance to hear more about Google\'s developer products.',
+  'start': {
+    'dateTime': '2015-05-28T09:00:00-07:00',
+    'timeZone': 'America/Los_Angeles'
+  },
+  'end': {
+    'dateTime': '2015-05-28T17:00:00-07:00',
+    'timeZone': 'America/Los_Angeles'
+  },
+  'recurrence': [
+    'RRULE:FREQ=DAILY;COUNT=2'
+  ],
+  'attendees': [
+    {'email': 'lpage@example.com'},
+    {'email': 'sbrin@example.com'}
+  ],
+  'reminders': {
+    'useDefault': false,
+    'overrides': [
+      {'method': 'email', 'minutes': 24 * 60},
+      {'method': 'popup', 'minutes': 10}
+    ]
+  }
+};
+
+var request = gapi.client.calendar.events.insert({
+  'calendarId': 'primary',
+  'resource': event
+});
+
+request.execute(function(event) {
+  appendPre('Event created: ' + event.htmlLink);
+});
+```
