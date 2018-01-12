@@ -23,15 +23,15 @@ Para disponer de todos estos requisitos básicos podré instalar **[WAMP](http:/
 
 * Accedemos a [Drupal.org](https://www.drupal.org/) y hacemos click en [Dowload & Extend](https://www.drupal.org/download)
 
-![Drupal.org-Home](https://github.com/HecFranco/Apuntes/blob/master/capture/Drupal8-InstalacionBasica_01.jpg)
+![Drupal.org-Home](../capture/Drupal8-InstalacionBasica_01.jpg)
 
 * En la siguiente ventana podré descargarme la última versión estable de Drupal, en este caso podré descargar la versión de **Drupal 8.4.3** [descargar aquí](https://www.drupal.org/project/drupal/releases/8.4.3).
 
-![Drupal.org-Version](https://github.com/HecFranco/Apuntes/blob/master/capture/Drupal8-InstalacionBasica_02.jpg)
+![Drupal.org-Version](../capture/Drupal8-InstalacionBasica_02.jpg)
 
 * Podré descargar la versión de Drupal seleccionada con la extensión **[.tar.gz](https://ftp.drupal.org/files/projects/drupal-8.4.3.tar.gz)** o **[.zip](https://ftp.drupal.org/files/projects/drupal-8.4.3.zip)**.
 
-![Drupal.org-Core](https://github.com/HecFranco/Apuntes/blob/master/capture/Drupal8-InstalacionBasica_03.jpg)
+![Drupal.org-Core](../capture/Drupal8-InstalacionBasica_03.jpg)
 
 Además en esta ventana tendré acceso al **Core** que es la versión que estaremos descargando, **Distributions** que son proyectos drupal ya configurados (e-commerce, red social,...), **Modules** y **Themes**
 
@@ -72,13 +72,13 @@ Si por alguna extraña razón no puedes ejecutar curl para descargar Composer, p
 El siguiente paso consiste en crear el nuevo repositorio con nuestro usuario dentro de Bitbucket, en este caso usando [Bitbucket](https://bitbucket.org/product) como alojamiento para el repositorio. <br/>
 Para ello pulsaremos dentro de la **Barra Latera** en el **+**.<br/>
 
-![BitBucket_nuevo_repositorio_01](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_01.jpg)<br/>
+![BitBucket_nuevo_repositorio_01](../capture/BitBucket_nuevo_repositorio_01.jpg)<br/>
 Posteriormente seleccionaremos **Repository**.<br/>
 
-![BitBucket_nuevo_repositorio_02](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_02.jpg)<br/>
+![BitBucket_nuevo_repositorio_02](../capture/BitBucket_nuevo_repositorio_02.jpg)<br/>
 En la siguiente ventana podremos seleccionar tanto el **Nombre del repositorio**, como si queremos que sea **privado**, la inclusión del archivo **README.MD**, la versión de control **GIT** o **Mercurial** (en nuestro caso **GIT**), la **descripción**, opciones de **Gestión de proyectos** (**Issue tracking** y **Wiki**), y el **Lenguaje**.<br/>
 
-![BitBucket_nuevo_repositorio_03](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_03.jpg)<br/>
+![BitBucket_nuevo_repositorio_03](../capture/BitBucket_nuevo_repositorio_03.jpg)<br/>
 
 **IMPORTANTE** Marcamos los checkbox de **Issue tracking** y **Wiki**, y como lenguaje de uso al ser **Drupal** indicaremos **PHP** |
 
@@ -141,15 +141,15 @@ Si utilizamos ahora el comando `git status` podremos ver que ahora no estan rojo
 
 Enlazaremos nuestro repositorio local con [Bitbucket](https://bitbucket.org/product) (repositorio remoto) con el comando de consola `git remote add origin git@bitbucket.org:Ejemplo/prueba.git`. Este comando se podrá extraer de [Bitbucket](https://bitbucket.org/product).
 Para ello en el repositorio, seleccionaremos la opción **Overview**.<br/>
-![BitBucket_nuevo_repositorio_04](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_04.jpg)<br/>
+![BitBucket_nuevo_repositorio_04](../capture/BitBucket_nuevo_repositorio_04.jpg)<br/>
 Y según si nos encontramos ante un repositorio ya existente, o uno nuevo seleccionaremos las líneas de comando siguientes:
 <br/>
 
 **TENGO UN PROYECTO EXISTENTE** <br/>
-![BitBucket_nuevo_repositorio_05](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_05.jpg)<br/>
+![BitBucket_nuevo_repositorio_05](../capture/BitBucket_nuevo_repositorio_05.jpg)<br/>
 
 **ESTOY EMPEZANDO DESDE SCRATH** <br/>
-![BitBucket_nuevo_repositorio_06](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_06.jpg)<br/>
+![BitBucket_nuevo_repositorio_06](../capture/BitBucket_nuevo_repositorio_06.jpg)<br/>
 
 **IMPORTANTE** Si es la primera vez que iniciamos el repositorio en el PC actual, será necesario identificarse con el mismo. Para ello usaremos el comando `git config --global user.email "email@usuario.com"` y `git config --global user.name "Cristina"`
 
@@ -157,15 +157,15 @@ Es posible que tengamos que generar nuestras **clave pública y privada de RSA**
 
 Para generarlas utilizaremos el comando `ssh-keygen -t rsa`. Esto creará unos archivos que se ubicarán en una carpeta oculta llamada **.ssh** dentro de nuestro usuario.
 <br/>
-![BitBucket_nuevo_repositorio_07](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_07.jpg)<br/>
+![BitBucket_nuevo_repositorio_07](../capture/BitBucket_nuevo_repositorio_07.jpg)<br/>
 
 El archivo en el que se guardará la clave publica es `id_rsa.pub`.
 
 Añadiremos las claves generadas en el Repositorio de [Bitbucket](https://bitbucket.org/product), accediendo a los datos de **perfil >> settings >> SSHKeys** y añadiremos la clave.<br/>
 
-![BitBucket_nuevo_repositorio_08](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_08.jpg)<br/>
+![BitBucket_nuevo_repositorio_08](../capture/BitBucket_nuevo_repositorio_08.jpg)<br/>
 
-![BitBucket_nuevo_repositorio_09](https://github.com/HecFranco/Apuntes/blob/master/capture/BitBucket_nuevo_repositorio_09.jpg)<br/>
+![BitBucket_nuevo_repositorio_09](../capture/BitBucket_nuevo_repositorio_09.jpg)<br/>
 
 Recuerda que en nuestro repositorio debemos crear una clave pública para nuestro usuario igual a la creada en nuestro entorno local.
 
