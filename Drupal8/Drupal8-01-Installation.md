@@ -18,18 +18,18 @@ Para poder instalar Drupal es necesario disponer de los siguientes requerimiento
 
 Para disponer de todos estos requisitos básicos podré instalar **[WAMP](http://www.wampserver.com/en/)** o **[XAMPP](https://www.apachefriends.org/es/index.html)**
 
-1.1.2.Primeros Pasos
---------------------
+1.1.2.Primeros Pasos de la Instalación
+--------------------------------------
 
-* Accedemos a [Drupal.org](https://www.drupal.org/) y hacemos click en [Dowload & Extend](https://www.drupal.org/download)
+Accedemos a [Drupal.org](https://www.drupal.org/) y hacemos click en [Dowload & Extend](https://www.drupal.org/download)
 
 ![Drupal.org-Home](../capture/Drupal8-InstalacionBasica_01.jpg)
 
-* En la siguiente ventana podré descargarme la última versión estable de Drupal, en este caso podré descargar la versión de **Drupal 8.4.3** [descargar aquí](https://www.drupal.org/project/drupal/releases/8.4.3).
+En la siguiente ventana podré descargarme la última versión estable de Drupal, en este caso podré descargar la versión de **Drupal 8.4.3** [descargar aquí](https://www.drupal.org/project/drupal/releases/8.4.3).
 
 ![Drupal.org-Version](../capture/Drupal8-InstalacionBasica_02.jpg)
 
-* Podré descargar la versión de Drupal seleccionada con la extensión **[.tar.gz](https://ftp.drupal.org/files/projects/drupal-8.4.3.tar.gz)** o **[.zip](https://ftp.drupal.org/files/projects/drupal-8.4.3.zip)**.
+Podré descargar la versión de Drupal seleccionada con la extensión **[.tar.gz](https://ftp.drupal.org/files/projects/drupal-8.4.3.tar.gz)** o **[.zip](https://ftp.drupal.org/files/projects/drupal-8.4.3.zip)**.
 
 ![Drupal.org-Core](../capture/Drupal8-InstalacionBasica_03.jpg)
 
@@ -39,7 +39,68 @@ Descomprimo la carpeta y la guardo dentro de nuestra carpeta del proyecto, en es
 * **C:\wamp64\www\drupal_new_project**, **[WAMP](http://www.wampserver.com/en/)** en windows
 * **C:\xampp\htdocs\drupal_new_project**, **[XAMPP](https://www.apachefriends.org/es/index.html)** en windows
 
-...........................................
+1.1.3.Instalación
+-----------------
+
+Lanzamos el Servidor Local [WAMP](http://www.wampserver.com/en/) o [XAMPP](https://www.apachefriends.org/es/index.html), y accedemos a la url del proyecto.
+
+![Drupal8-InstalacionNormal_01](../capture/Drupal8-InstalacionNormal_01.jpg)
+
+**Nota** en local lo ideal es Instalarlo en Inglés, si quieres realizar la instalación en tu idioma debes acceder a [https://localize.drupal.org/](https://localize.drupal.org/) para descargar el paquete correcto.
+
+A continuación podremos seleccionar el tipo de instalación, **Estándar** (Instalar con características comúnmente utilizadas preconfiguradas) o **Mínima** (Cree un sitio personalizado sin funcionalidad preconfigurada. Adecuado para usuarios avanzados)
+
+![Drupal8-InstalacionNormal_01](../capture/Drupal8-InstalacionNormal_02.jpg)
+
+En nuestro caso obtendremos la siguiente **advertencia** (PHP OPCODE CACHING
+No disponible) relativa al *almacenamiento en caché de* **PHP OPcode** *que puede mejorar considerablemente el rendimiento del sitio.*
+
+![Drupal8-InstalacionNormal_03](../capture/Drupal8-InstalacionNormal_03.jpg)
+
+En el siguiente punto de la instalación indicaremos la base de datos del proyecto.
+* **DataBase Name**
+* **Database UserName**
+* **DataBase Password**
+
+**IMPORTANTE** La base de datos deberá estár ya creada junto a su usuario y password.
+
+![Drupal8-InstalacionNormal_04](../capture/Drupal8-InstalacionNormal_04.jpg)
+
+Una vez instalada la web estos datos de acceso se ubicarán dentro de la carpeta **site/default/setting.php**, dónde podremos modificarlos (tanto la carpeta **stie/default** como el archivo **setting.php** deberán tener limitados los permisos de acceso)
+
+![Drupal8-InstalacionNormal_05](../capture/Drupal8-InstalacionNormal_05.jpg)
+
+A continuación se introducirán los datos del site, tales como:
+* **SITE INFORMATION** *Site name*, *Site email address*
+* **SITE MAINTENANCE ACCOUNT** *Username*, *Password*, *Confirm password* y *email address*.
+* **REGIONAL SETTING** *Check for updates automatically* y *Receive email notifications*
+
+![Drupal8-InstalacionNormal_06](../capture/Drupal8-InstalacionNormal_06.jpg)
+
+Ya habremos terminado la instalación Básica de Drupal. Se nos abrirá la web estando logueados como el usuario administrador que indicamos durante la instalación.
+
+![Drupal8-InstalacionNormal_07](../capture/Drupal8-InstalacionNormal_07.jpg)
+
+| Para desloguearnos accederemos dentro de **Toolbar >> UserName >> LogOut** [localhost:8080/drupal_new_project/user/logout](http://localhost:8080/drupal_new_project/user/logout) |
+|:------------------------------|
+
+**Nota importante** Para el uso de plantillas en drupal, es posible realizar directamente la instalación de la misma como un proyecto completo ya adaptado. Para ello simplemente será necesario haber cargado la base de datos realizar la instalación y una vez indicada la base de datos de la plantilla con su contenido se nos preguntará si deseamos realizar una instalación o recuperar el proyecto.
+
+
+
+
+
+
+
+
+
+
+.........................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................................................................................................................................................
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+...................................................................................................................................................................................................................................................................................................................................................................................................
+....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
 
 Por ello debemos tener las herramientas correspondientes instaladas en nuesta computadora, recomendandose usar un entorno linux, (ver manual LinuxVirtual):
 * **[curl](https://curl.haxx.se/)**
@@ -95,7 +156,7 @@ Esto creará una estructura de carpetas para nuestro proyecto. En dicha estructu
 --------------------------------------------
 La instalación de Drupal se realizará con **Drush** (desde la carpeta **web**).
 
-**IMPORTANTE** Antes de la instalación de drupal, debemos crear una base de datos. la cual se la asignaremos a la instalación. **Recomendación** cotejamiento DB: utf-8 general-ci 
+**IMPORTANTE** Antes de la instalación de drupal, debemos crear una base de datos. la cual se la asignaremos a la instalación. **Recomendación** cotejamiento DB: utf-8 general-ci
 
 No debemos olvidar cambiar las credenciales de acceso para la **base de datos** *(Ej:prueba)*, tu **usuario** *(Ej:root)* y tu **password** *(Ej:root)*.
 
@@ -123,7 +184,7 @@ Para la importación el comando sería el siguiente `../vendor/drush/drush/drush
 1.8.Iniciar Repositorio
 ------------------------
 
-**IMPORTANTE** Si es la primera vez que iniciamos el repositorio en el PC actual, será necesario identificarse con el mismo.  Para ello usaremos el comando `git config --global user.email "email@usuario.com"` y `git config --global user.name "Cristina"` 
+**IMPORTANTE** Si es la primera vez que iniciamos el repositorio en el PC actual, será necesario identificarse con el mismo.  Para ello usaremos el comando `git config --global user.email "email@usuario.com"` y `git config --global user.name "Cristina"`
 
 Empezaremos creando nuestro repositorio local, para inicializarloos git con el siguiente comando(carpeta de proyecto):
 `git init`
