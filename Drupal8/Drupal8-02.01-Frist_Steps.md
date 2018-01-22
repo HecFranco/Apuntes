@@ -48,42 +48,9 @@ Donde podremos importar el idioma deseado, el archivo de traducción que puede d
 
 El siguiente punto importante consiste en actualizar el **Core** y los módulos que ya tenemos instalados.
 
-2.2.1.Actualizar **Core Drupal**
---------------------------------
+Por orden habrá que realizar primero la actualización de todos los **módulos** y posteriormente del **Core**.
 
-Accedemos a [Drupal.org](https://www.drupal.org/) y hacemos click en [Dowload & Extend](https://www.drupal.org/download)
-
-![Drupal8-InstalacionBasica_01](../capture/Drupal8-InstalacionBasica_01.jpg)
-
-En la siguiente ventana podré descargarme la última versión estable de Drupal, en este caso podré descargar la versión de **Drupal 8.4.3** [descargar aquí](https://www.drupal.org/project/drupal/releases/8.4.3).
-
-![Drupal8-InstalacionBasica_02](../capture/Drupal8-InstalacionBasica_02.jpg)
-
-Podré descargar la versión de Drupal seleccionada con la extensión **[.tar.gz](https://ftp.drupal.org/files/projects/drupal-8.4.3.tar.gz)** o **[.zip](https://ftp.drupal.org/files/projects/drupal-8.4.3.zip)**.
-
-Dentro del proyecto eliminamos las carpetas **CORE** y **VENDOR**, y las sustituimos por la de la nueva versión de Drupal.
-
-Entramos en **[yoursite.com/update](yoursite.com/update)** donde **"yoursite"** es el nombre de dominio de su sitio web.
-
-<table>
-  <tr>
-    <td>
-      **IMPORTANTE** en caso de no estar logueados al acceder a **[yoursite.com/update](yoursite.com/update)**, debemos modificar **/site/default/setting.php** cambiando la línea `$settings['update_free_Access'] = FALSE;` por `$settings['update_free_Access'] = TRUE;`.
-      <br>
-      **PELIGRO** Volver a cambiar después, no se puede dejar este archivo desprotegido.
-    </td>
-  </tr>
-</table>
-
-![Drupal8-FristSteps_10](../capture/Drupal8-FristSteps_10.jpg)
-
-Previamente se nos recomienda:
-* **Realizar Copias de Seguridad**, podemos realizarlo manualmente o mediante el módulo **[BACKUP & MIGRATE](https://www.drupal.org/project/backup_migrate)**.
-* Colocar el site en **Modo de Mantenimiento**, accediendo a **Toolbar >> Manage >> [Configuration](/admin/config) >> [Development](/admin/config/development) >> [Maintenance](/admin/config/development/maintenance)** o accediendo a la url [/admin/config/development/maintenance](/admin/config/development/maintenance)
-
-![Drupal8-FristSteps_11](../capture/Drupal8-FristSteps_11.jpg)
-
-2.2.2.Actualizar **Módulos Instalados**
+2.2.1.Actualizar **Módulos Instalados**
 ---------------------------------------
 
 Para ello accedemos a **Toolbar >> Manage >> [Extend](/admin/modules) >> [Update](/admin/modules/update)** o en la url [/admin/modules/update](/admin/modules/update) y seleccionamos los módulos que queremos actualizar.
@@ -111,3 +78,12 @@ Pulsamos en **Continue**, obtendremos información relativa a las actualizacione
 ![Drupal8-FristSteps_06](../capture/Drupal8-FristSteps_06.jpg)
 
 A continuación pulsaremos en **Run database updates**.
+
+2.2.2.Actualizar **Core Drupal**
+--------------------------------
+
+Accedemos a la consola y una vez dentro del proyecto lanzamos el comando `composer update`.
+
+Previamente se nos recomienda:
+* **Realizar Copias de Seguridad**, podemos realizarlo manualmente o mediante el módulo **[BACKUP & MIGRATE](https://www.drupal.org/project/backup_migrate)**.
+* Colocar el site en **Modo de Mantenimiento**, accediendo a **Toolbar >> Manage >> [Configuration](/admin/config) >> [Development](/admin/config/development) >> [Maintenance](/admin/config/development/maintenance)** o accediendo a la url [/admin/config/development/maintenance](/admin/config/development/maintenance)

@@ -415,3 +415,26 @@ a[href="http://net.tutsplus.com"] {
 * `X:only-child`
 * `X:only-of-type` **Pseudo Clase last-child**. Al contrario de `first-child`, `last-child` afectará el último elemento del padre el elemento.
 * `X:first-of-type` **Pseudo Clase only-child**.
+
+5.FLEXBOX
+=========
+
+**Contenedor flexible (Flex container)**
+El elemento "padre" que contiene los elementos flexibles. Un contenedor flexible se define usando los valores `flex` o `inline-flex` en la propiedad `display`.
+**Elemento flexible (Flex item)**
+Cada hijo de un contenedor flex se convierte en un elemento flexible. Si hay texto directamente incluido en el contenedor flexible, se envuelve automáticamente en un elemento flexible anónimo.
+
+**Ejes**
+Cada diseño de **"caja flexible"** sigue dos ejes. El eje principal es el eje a lo largo del cual los elementos flexibles se suceden unos a otros. El eje secundario es el eje perpendicular al eje principal.
+
+* La propiedad `flex-direction` establece el eje principal.
+* La propiedad `justify-content` define cómo los elementos flexibles se disponen a lo largo del eje principal en la línea en curso.
+* La propiedad `align-items` define cómo los elementos flexibles se disponen a lo largo del eje secundario de la línea en curso.
+* La propiedad `align-self` define cómo cada elemento flexible se alinea respecto al eje secundario, y sustituye al valor por defecto establecido por align-items.
+
+**Ejemplos**
+
+```css
+display:flex;
+align-items:center;
+```
